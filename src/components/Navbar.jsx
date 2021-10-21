@@ -10,8 +10,8 @@ export const Navbar= () =>{
   return(
     <div>
       <div className="container-logo"> 
-      <Link to='/home'>
-      <img src={logo} alt="Stefanini" className="logo-navbar"/>
+        <Link to='/home'>
+          <img src={logo} alt="Stefanini" className="logo-navbar"/>
         </Link>
       </div>
       <div className="container-gradient">
