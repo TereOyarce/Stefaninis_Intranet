@@ -4,8 +4,8 @@ import './style/calendar.css';
 
 export const Calendar= () =>{
   return(
-    <div className="container-links">
-      <h1>THIS IS LINKS</h1>
+    <div className="container-calendar">
+      <h1>THIS IS CALENDAR</h1>
     </div>
   )
 }
