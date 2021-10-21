@@ -6,8 +6,13 @@ export const Sidebar= () =>{
   return(
     <div className="container-sidebar">
       <div>
-      <Link to=''>
+      <Link to='/profile'>
           <button className="category-2">PERFIL</button>
+      </Link>
+      </div>
+      <div>
+      <Link to='calendar'>
+          <button className="category-2">CALENDARIO</button>
       </Link>
       </div>
       <div>
