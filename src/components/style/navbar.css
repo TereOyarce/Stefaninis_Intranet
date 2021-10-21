@@ -5,10 +5,11 @@
 }
 .container-navbar{
     display: flex;
+    grid-area: 1 / 1 / span 1 / span 3;
 }
 .container-logo{
     background-color: #16857B;
-    width: 15%;
+    width: 260px;
     height: 128px;
 }
 .logo-navbar{
@@ -18,7 +19,7 @@
 .container-gradient{
     display: flex;
     background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
-    width: 90%;
+    width: 80%;
     height: 128px;
     justify-content: space-around;
     align-items: center;

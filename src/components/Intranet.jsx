@@ -6,15 +6,16 @@ import { Benefits } from "./Benefits";
 import { Insurance } from "./Insurance";
 import {Home} from "./Home";
 import { Sidebar } from "./Sidebar";
-import './style/navbar.css';
+import './style/intranet.css';
 
 
 
 export const Intranet= () =>{
   return(
-    <div>
+    <div className="container-intranet">
       <Router>
         <Navbar />
+        <Sidebar />
           <Switch>
             <Route path='/links' component={Links}/>
             <Route path='/benefits' component={Benefits}/>

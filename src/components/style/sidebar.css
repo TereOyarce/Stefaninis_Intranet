@@ -1,0 +1,6 @@
+.container-sidebar {
+    background: #0B1641;
+    width: 260px;
+    height: 896px;
+    grid-area: 2 / 1 / span 3 / span 1;
+}
