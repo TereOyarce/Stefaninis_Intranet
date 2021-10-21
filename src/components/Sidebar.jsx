@@ -5,9 +5,16 @@ import './style/sidebar.css';
 export const Sidebar= () =>{
   return(
     <div className="container-sidebar">
+      <div>
       <Link to=''>
-          <button className="category">GO TO LINKS</button>
-          </Link>
+          <button className="category-2">PERFIL</button>
+      </Link>
+      </div>
+      <div>
+      <Link to=''>
+          <button className="category-2">CERRAR SESIÓN</button>
+      </Link>
+      </div>
     </div>
   )
 }

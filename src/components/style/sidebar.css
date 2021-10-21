@@ -1,6 +1,12 @@
 .container-sidebar {
     background: #0B1641;
-    width: 260px;
+    width: 228px;
     height: 896px;
     grid-area: 2 / 1 / span 3 / span 1;
+}
+.category-2{
+    background: none;
+    border-style: none;
+    color: white;
+    font-family: 'infra';
 }
