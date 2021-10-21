@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo-navbar{
+    width: 10%;
+    height: 5%;
+    background-color: #16857B;
+    padding: 30px;
+}
+.container-gradient{
+    background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
+}
