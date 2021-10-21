@@ -4,6 +4,7 @@ import { Navbar } from "./Navbar";
 import { Links } from "./Links";
 import { Benefits } from "./Benefits";
 import { Insurance } from "./Insurance";
+import {Home} from "./Home";
 import { Sidebar } from "./Sidebar";
 import './style/navbar.css';
 
@@ -18,6 +19,7 @@ export const Intranet= () =>{
             <Route path='/links' component={Links}/>
             <Route path='/benefits' component={Benefits}/>
             <Route path='/insurance' component={Insurance}/>
+            <Route path='/home' component={Home}/>
           </Switch>
         </Router>        
     </div>

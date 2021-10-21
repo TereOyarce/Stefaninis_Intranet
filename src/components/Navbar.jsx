@@ -9,20 +9,22 @@ export const Navbar= () =>{
 
   return(
     <div>
-      <div>
+      <div className="container-logo"> 
+      <Link to='/home'>
       <img src={logo} alt="Stefanini" className="logo-navbar"/>
+        </Link>
       </div>
       <div className="container-gradient">
         <Link to='/links'>
-          <button>GO TO LINKS</button>
+          <button className="category">GO TO LINKS</button>
           </Link>
 
           <Link to='/benefits'>
-          <button>GO TO BENEFITS</button>
+          <button className="category">GO TO BENEFITS</button>
           </Link>
 
           <Link to='/insurance'>
-          <button>GO TO INSURANCE</button>
+          <button className="category">GO TO INSURANCE</button>
           </Link>
       </div>
     </div>
