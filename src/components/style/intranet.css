@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/infra');
+@import url('http://fonts.cdnfonts.com/css/nexa-bold');             
+
+:root{
+  --primaryblue: #0B1641;
+  --primarygreen: #16857B;
+  --primarywhite: #ffff;
+  --secondarygrey: #E8E9ED;
+  --secondarylightblue: #009FD7;
+  font-family: 'Infra', sans-serif;
+  font-family: 'Nexa', sans-serif;
+}
+
