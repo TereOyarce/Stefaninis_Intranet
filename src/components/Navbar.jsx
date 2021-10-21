@@ -8,7 +8,7 @@ import logo from '../assets/img/logo.png';
 export const Navbar= () =>{
 
   return(
-    <div>
+    <div className="container-navbar">
       <div className="container-logo"> 
         <Link to='/home'>
           <img src={logo} alt="Stefanini" className="logo-navbar"/>

@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.container-navbar{
+    display: flex;
+}
 .container-logo{
     background-color: #16857B;
     width: 15%;
@@ -13,8 +16,12 @@
     padding: 20%;
 }
 .container-gradient{
+    display: flex;
     background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
+    width: 90%;
     height: 128px;
+    justify-content: space-around;
+    align-items: center;
 }
 .category {
     background: none;
