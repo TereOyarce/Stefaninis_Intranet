@@ -1,10 +1,10 @@
 import React from "react";
 
 
-export const Insurance= () =>{
+export const Benefits= () =>{
   return(
     <div>
-      <h1>LOTS OF INSURANCES</h1>
+      <h1>WELCOME TO BENEFITS</h1>
     </div>
   )
 }
