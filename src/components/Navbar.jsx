@@ -17,18 +17,26 @@ export const Navbar= () =>{
         </Link>
       </div>
       <div className="container-gradient">
-        <Link to='/links'>
-          <button className="category">GO TO LINKS</button>
+          
+          <button className="category">RRHH</button>
+          
+          <Link to='/links'>
+          <button className="category">Recursos</button>
           </Link>
 
           <Link to='/benefits'>
-          <button className="category">GO TO BENEFITS</button>
+          <button className="category">Beneficios</button>
           </Link>
 
           <Link to='/insurance'>
-          <button className="category">GO TO INSURANCE</button>
+          <button className="category">Seguro</button>
           </Link>
-          <input></input><Icon icon="clarity:search-line" color="white" height="60" rotate={2} hFlip={true} vFlip={true} />
+
+          <Link to='/vacancies'>
+          <button className="category">Vacantes</button>
+          </Link>
+
+          <input></input><Icon icon="clarity:search-line" color="white" height="20" rotate={2} hFlip={true} vFlip={true} />
 
       </div>
     </div>

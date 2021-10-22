@@ -24,6 +24,7 @@ export const Sidebar= () =>{
             CERRAR SESIÓN
             <Icon icon="bx:bx-log-out"  height="15" rotate={2} hFlip={true} vFlip={true} className="log-icon" />
           </button>
+          
       </Link>
       </div>
     </div>
