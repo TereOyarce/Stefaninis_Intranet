@@ -2,6 +2,10 @@
 @import url('http://fonts.cdnfonts.com/css/nexa-bold');             
 
 :root{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   --primaryblue: #0B1641;
   --primarygreen: #16857B;
   --primarywhite: #ffff;
