@@ -12,7 +12,7 @@ export const Navbar= () =>{
   return(
     <div className="container-navbar">
       <div className="container-logo"> 
-        <Link to='/home'>
+        <Link to='/'>
           <img src={logo} alt="Stefanini" className="logo-navbar"/>
         </Link>
       </div>
