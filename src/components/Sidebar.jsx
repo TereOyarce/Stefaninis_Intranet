@@ -20,8 +20,8 @@ export const Sidebar= () =>{
       <Link to=''>
           <button className="category-2">
             CERRAR SESIÓN
-            <Icon icon="bx:bx-log-out"  height="30" rotate={2} hFlip={true} vFlip={true} className="log-icon" />
           </button>
+          <Icon icon="bx:bx-log-out" color="white" height="30" rotate={2} hFlip={true} vFlip={true} className="log-icon" />
       </Link>
       </div>
     </div>
