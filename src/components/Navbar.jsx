@@ -12,15 +12,14 @@ export const Navbar= () =>{
   return(
     <div className="container-navbar">
       <div className="container-logo"> 
-        <Link to='/home'>
+        <Link to='/'>
           <img src={logo} alt="Stefanini" className="logo-navbar"/>
         </Link>
       </div>
       <div className="container-gradient">
-          <Link to=''>
+          
           <button className="category">RRHH</button>
-          </Link>
-
+          
           <Link to='/links'>
           <button className="category">Recursos</button>
           </Link>
@@ -33,7 +32,7 @@ export const Navbar= () =>{
           <button className="category">Seguro</button>
           </Link>
 
-          <Link to=''>
+          <Link to='/vacancies'>
           <button className="category">Vacantes</button>
           </Link>
 
