@@ -3,7 +3,7 @@ import React from "react";
 
 export const Insurance= () =>{
   return(
-    <div>
+    <div className='containter-Insurance'>
       <h1>LOTS OF INSURANCES</h1>
     </div>
   )
