@@ -6,8 +6,13 @@
     height: 50rem;
     text-align: center;
     position: sticky;
+    grid-area: 1 / 1 / span 3 / span 1;
 }
-
+.container-logo{
+    background-color: #16857B;
+    
+    padding: 1.15rem;
+}
 .img-container {
     background-color: white;
     width: 5rem;

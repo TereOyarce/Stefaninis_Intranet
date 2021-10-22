@@ -5,26 +5,23 @@
 }
 .container-navbar{
     display: flex;
-    grid-area: 1 / 1 / span 1 / span 3;
+    grid-area: 1 / 2 / span 1 / span 3;
+    height: 4rem;
+    width: 100vw;
+    margin-right: 0;
 }
-.container-logo {
-    display: flex;
-    background-color: #16857B;
-    width: 8rem;
-    height: 128px;
-    width: 15%;
-    height: 80px;
-    align-items: center;
-}
+
 .logo-navbar {
-    width: 60%;
-    margin-left: 35px;
+    width: 5rem;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+   
 }
 .container-gradient {
     display: flex;
     background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
-    width: 85%;
-    height: 80px;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
 }

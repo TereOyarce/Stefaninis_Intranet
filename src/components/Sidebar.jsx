@@ -2,11 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './style/sidebar.css';
 import { Icon } from '@iconify/react';
+import logo from '../assets/img/logo.png';
 
 export const Sidebar= () =>{
   return(
     <div className="container-sidebar">
-
+<div className="container-logo"> 
+        <Link to='/'>
+          <img src={logo} alt="Stefanini" className="logo-navbar"/>
+        </Link>
+      </div>
       <div className ='img-container'></div>
       <div className='links-sidebar'>
       <Link to='/profile'>
