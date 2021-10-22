@@ -1,13 +1,48 @@
 .container-sidebar {
+    display: flex;
+    flex-direction: column;
     background: #0B1641;
-    width: 228px;
-    height: 896px;
-    grid-area: 2 / 1 / span 3 / span 1;
+    width: 8rem;
+    height: 50rem;
     text-align: center;
+    position: sticky;
+    grid-area: 1 / 1 / span 3 / span 1;
 }
-.category-2{
+.container-logo{
+    background-color: #16857B;
+    
+    padding: 1.15rem;
+}
+.img-container {
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    align-self: center;
+    margin: 2rem auto;
+}
+
+.category-2,
+.link-log {
     background: none;
     border-style: none;
     color: white;
     font-family: 'infra';
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.links-sidebar:hover {
+    background-color: #16857B;
+}
+.link-log:hover{
+    background-color: #16857B;
+}
+
+
+.link-log {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+    margin-left: 1rem;
 }
