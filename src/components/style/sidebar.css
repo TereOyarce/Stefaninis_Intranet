@@ -3,6 +3,7 @@
     width: 228px;
     height: 896px;
     grid-area: 2 / 1 / span 3 / span 1;
+    text-align: center;
 }
 .category-2{
     background: none;
