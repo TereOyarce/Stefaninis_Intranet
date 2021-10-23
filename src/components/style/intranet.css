@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/infra');
-@import url('http://fonts.cdnfonts.com/css/nexa-bold');             
+@import url('http://fonts.cdnfonts.com/css/nexa-bold');
 
-:root{
+:root {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -14,12 +14,11 @@
   font-family: 'Infra', sans-serif;
   font-family: 'Nexa', sans-serif;
 }
-.App {
-   overflow-x:hidden;
 
-}
 .container-intranet {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 0.5fr repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 }
-
