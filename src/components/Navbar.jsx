@@ -2,34 +2,65 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './style/navbar.css';
 import logo from '../assets/img/logo.png';
-import { Icon } from '@iconify/react';
-import { Searchbar } from "./Searchbar";
-
-
+import {Searchbar} from "./Searchbar";
 
 export const Navbar= () =>{
+
+  const intranetSearch = [
+    'stefanini',
+    'premios',
+    'roles',
+    'chapters',
+    'people and culture',
+    'administracion',
+    'finanzas',
+    'soporte',
+    'beneficios',
+    'convenios',
+    'seguros',
+    'reembolso',
+    'vidacamara',
+    'caja los andes',
+    'acsendo',
+    'academia',
+    'mentoring', 
+    'trabajo',
+    'postular',
+    'kenoby',
+    'ýammer',
+    'skill mapping'
+  ]
 
   return(
     <div className="container-navbar">
       <div className="container-logo"> 
-        <Link to='/home'>
+        <Link to='/'>
           <img src={logo} alt="Stefanini" className="logo-navbar"/>
         </Link>
       </div>
       <div className="container-gradient">
-        
-        <Link to='/links'>
-          <button className="category">GO TO LINKS</button>
+          
+          <button className="category">RRHH</button>
+          
+          <Link to='/links'>
+          <button className="category">Recursos</button>
           </Link>
 
           <Link to='/benefits'>
-          <button className="category">GO TO BENEFITS</button>
+          <button className="category">Beneficios</button>
           </Link>
 
           <Link to='/insurance'>
-          <button className="category">GO TO INSURANCE</button>
+          <button className="category">Seguro</button>
           </Link>
-          <placeholder> <Searchbar/> </placeholder>
+
+          <Link to='/vacancies'>
+          <button className="category">Vacantes</button>
+          </Link>
+          
+          <Searchbar word={intranetSearch}/>
+          
+
       </div>
     </div>
   )
