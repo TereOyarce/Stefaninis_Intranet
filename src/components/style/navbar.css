@@ -30,4 +30,11 @@
     border-style: none;
     color:white;
     font-family: 'Infra', sans-serif;
+
 }
+
+.burgerMenu{
+  display: none;
+}
+
+

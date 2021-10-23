@@ -1,12 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './style/navbar.css';
-import { Icon } from '@iconify/react';
-
-
-
+import {Searchbar} from "./Searchbar";
 
 export const Navbar= () =>{
+
+  const intranetSearch = [
+    'stefanini',
+    'premios',
+    'roles',
+    'chapters',
+    'people and culture',
+    'administracion',
+    'finanzas',
+    'soporte',
+    'beneficios',
+    'convenios',
+    'seguros',
+    'reembolso',
+    'vidacamara',
+    'caja los andes',
+    'acsendo',
+    'academia',
+    'mentoring', 
+    'trabajo',
+    'postular',
+    'kenoby',
+    'ýammer',
+    'skill mapping'
+  ]
 
   return(
     <div className="container-navbar">
@@ -30,8 +52,9 @@ export const Navbar= () =>{
           <Link to='/vacancies'>
           <button className="category">Vacantes</button>
           </Link>
-
-          <input></input><Icon icon="clarity:search-line" color="white" height="20" rotate={2} hFlip={true} vFlip={true} />
+          
+          <Searchbar word={intranetSearch}/>
+          
 
       </div>
     </div>
