@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './style/navbar.css';
-import logo from '../assets/img/logo.png';
 import {Searchbar} from "./Searchbar";
 
 export const Navbar= () =>{
@@ -33,11 +32,7 @@ export const Navbar= () =>{
 
   return(
     <div className="container-navbar">
-      <div className="container-logo"> 
-        <Link to='/'>
-          <img src={logo} alt="Stefanini" className="logo-navbar"/>
-        </Link>
-      </div>
+      
       <div className="container-gradient">
           
           <button className="category">RRHH</button>
