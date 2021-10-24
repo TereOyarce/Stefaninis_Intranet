@@ -2,20 +2,12 @@ import React from "react";
 import './style/links.css';
 
 
+
 export const Links= () =>{
   return(
     <div className='container-links'>
       
-      <div className='card-container'>
-        <div className='overlay'>
-            <h1>Ascendo</h1>
-            <p>Somos una plataforma integral de Recursos Humanos para evaluar el desempeño, aumentar el engagement y desarrollar las habilidades de los colaboradores.</p>
-        </div>
-        <div className='title-box'>
-            <h2>ASCENDO</h2>
-        </div>
-      </div>
-
+      <a target='_blank' href='https://stefanini.konviva.com.br/lms/#/home'>
       <div className='card-container'>
         <div className='overlay'>
             <h1>Academia</h1>
@@ -25,7 +17,21 @@ export const Links= () =>{
             <h2>ACADEMIA</h2>
         </div>
       </div>
+      </a>
 
+      <a target='_blank' href='https://hr.acsendo.com/results/admin'>
+      <div className='card-container'>
+        <div className='overlay'>
+            <h1>Ascendo</h1>
+            <p>Somos una plataforma integral de Recursos Humanos para evaluar el desempeño, aumentar el engagement y desarrollar las habilidades de los colaboradores.</p>
+        </div>
+        <div className='title-box'>
+            <h2>ASCENDO</h2>
+        </div>
+        </div>
+        </a>
+
+      <a target='_blank' href='https://mentoring.stefanini.io/#/login'>
       <div className='card-container'>
         <div className='overlay'>
             <h1>Mentoring</h1>
@@ -35,7 +41,9 @@ export const Links= () =>{
             <h2>MENTORING</h2>
         </div>
       </div>
+      </a>
 
+      <a target='_blank' href='https://integra.stefanini.com/portal/0103PROD/PortalSkillMapping#'>
       <div className='card-container'>
         <div className='overlay'>
             <h1>Skill Mapping</h1>
@@ -45,7 +53,9 @@ export const Links= () =>{
             <h2>SKILL MAPPING</h2>
         </div>
       </div>
+      </a>
 
+      <a target='_blank' href='https://web.yammer.com/main/feed'>
       <div className='card-container'>
         <div className='overlay'>
             <h1>Yammer</h1>
@@ -55,7 +65,9 @@ export const Links= () =>{
             <h2>YAMMER</h2>
         </div>
       </div>
-     
+      </a>
+
+
     </div>
   )
 }

@@ -1,7 +1,11 @@
 .container-links {
     display: flex;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 0%;
+    background-color: khaki;
+}
+
+a{
+    text-decoration: none;
 }
 
 .card-container {
