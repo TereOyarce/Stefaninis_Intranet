@@ -26,7 +26,7 @@ export const Navbar= () =>{
     'trabajo',
     'postular',
     'kenoby',
-    'ýammer',
+    'yammer',
     'skill mapping'
   ]
 
