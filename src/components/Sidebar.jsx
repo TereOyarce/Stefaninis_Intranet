@@ -15,25 +15,30 @@ export const Sidebar= () =>{
       <div className ='img-container'>
         <img src={profileImg} alt="profile default" className='img-profile' />
       </div>
-      <div className='links-sidebar'>
+     
       <Link to='/profile'>
+      <div className='links-sidebar'>
           <button className="category-2">PERFIL</button>
+          </div>
       </Link>
-      </div>
-      <div className='links-sidebar'>
+     
+     
       <Link to='calendar'>
-          <button className="category-2">CALENDARIO</button>
-      </Link>
-      </div>
       <div className='links-sidebar'>
+          <button className="category-2">CALENDARIO</button>
+          </div>
+      </Link>
+     
+      
       <Link to=''>
+      <div className='links-sidebar'>
           <button className="category-2" className='link-log'>
             CERRAR SESIÓN
             <Icon icon="bx:bx-log-out"  height="15" rotate={2} hFlip={true} vFlip={true} className="log-icon" />
           </button>
-          
+          </div>
       </Link>
-      </div>
+     
     </div>
   )
 }

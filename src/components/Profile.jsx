@@ -3,7 +3,7 @@ import './style/profile.css';
 import profileDefault from '../assets/img/profiledefault.png'
 import { useState } from "react";
 import { db } from '../fbConfig';
-import { doc, setDoc } from "firebase/firestore";
+import { doc, setDoc, addDoc, collection } from "firebase/firestore";
 
 
 
@@ -22,8 +22,8 @@ export const Profile = () => {
     e.preventDefault();
 
 
-    const addData = async() => {
-      const dataProfile ={
+    const addData = async () => {
+      const dataProfile = {
         name: name,
         rut: rut,
         gender: gender,
@@ -33,11 +33,12 @@ export const Profile = () => {
         familiar: familiar,
         tshirt: tshirt,
       }
-      await setDoc(doc(db,"users",rut), dataProfile);
+      await setDoc(doc(db, "users", rut), dataProfile);
     };
-   addData()
-      
-    
+    addData()
+
+
+
       .then(() => {
         console.log("Guardado correctamente");
       })
@@ -51,7 +52,7 @@ export const Profile = () => {
 
       <h1>Mi Perfil</h1>
       <img src={profileDefault} alt="profile image" className='profile-img' />
-      
+
       <form onSubmit={handleSubmit}>
         <input type="text" className='input-profile' name="name" placeholder='Nombre' value={name} onChange={(e) => setName(e.target.value)} />
         <input type="text" className='input-profile' name="rut" placeholder='Rut' value={rut} onChange={(e) => setRut(e.target.value)} />
@@ -68,9 +69,9 @@ export const Profile = () => {
           <option value="xl">XL</option>
           <option value="xxl">XXL</option>
         </select>
-        <button  type="submit" className='profile-button'>GUARDAR</button>
+        <button type="submit" className='profile-button'>GUARDAR</button>
       </form>
-      
+
     </div>
   )
 }

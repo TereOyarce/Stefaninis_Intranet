@@ -4,7 +4,6 @@
     background: #0B1641;
     height: 100vh;
     text-align: center;
-    position: sticky;
     grid-area: 1 / 1 / 6 / 2;
 }
 .container-logo{
