@@ -7,7 +7,7 @@ import profileImg from '../assets/img/profiledefault.png';
 export const Sidebar= () =>{
   return(
     <div className="container-sidebar">
-<div className="container-logo"> 
+      <div className="container-logo"> 
         <Link to='/'>
           <img src={logo} alt="Stefanini" className="logo-navbar"/>
         </Link>
