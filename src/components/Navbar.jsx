@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './style/navbar.css';
 import {Searchbar} from "./Searchbar";
+import { Icon } from '@iconify/react';
 
 export const Navbar= () =>{
 
@@ -34,13 +35,20 @@ export const Navbar= () =>{
     <div className="container-navbar">
       
       <div className="container-gradient">
+
+          <div>
+            <button className="btn-bars">
+            <Icon className="bars-icon" icon="feather:menu" color="white" height="30" rotate={2} hFlip={true} vFlip={true} />
+            </button>
+          </div>
           
           <button 
           className= "category"
           onClick= {()=> (window.open('http://verticales.inetcloud.cl:8082/rrhh/login.aspx'))}
-          >RRHH</button>
-          
-          <Link to='/links'>
+          >RRHH
+          </button>
+        
+          <Link to='/links' activeStyle>
           <button className="category">Recursos</button>
           </Link>
 

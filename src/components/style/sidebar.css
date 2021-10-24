@@ -11,15 +11,19 @@
     background-color: #16857B;
     padding: 1rem;
 }
-.img-container .img-profile {
+@media only screen and (max-width:768px){
+    .container-logo{
+        background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
+    }
+}
+.img-container 
+.img-profile {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
     align-self: center;
     margin: 2rem auto;
 }
-
-
 .category-2,
 .link-log {
     background: none;
@@ -29,7 +33,6 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     cursor: pointer;
-   
 }
 .links-sidebar:hover {
     background-color: #16857B;
@@ -37,8 +40,6 @@
 .link-log:hover{
     background-color: #16857B;
 }
-
-
 .link-log {
     display: flex;
     position: absolute;
