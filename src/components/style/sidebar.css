@@ -2,11 +2,10 @@
     display: flex;
     flex-direction: column;
     background: #0B1641;
-    width: 9rem;
     height: 100vh;
     text-align: center;
     position: sticky;
-    grid-area: 1 / 1 / span 3 / span 1;
+    grid-area: 1 / 1 / 6 / 2;
 }
 .container-logo{
     background-color: #16857B;
