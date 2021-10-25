@@ -69,7 +69,7 @@ export const Navbar= () =>{
       </div>
 
       <div id="category-menu">
-          <div>
+          <div className="close">
             <button 
             className= "btn-close"
             onClick= {()=> (document.getElementById("category-menu").style.display='none')}>
