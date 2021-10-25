@@ -89,6 +89,7 @@
 .btn-close {
     border-style: none;
     background: none;
+    /* margin-left: 55%; */
 }
 .input-2:focus, .input-2{
     border-style: none;
