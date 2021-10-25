@@ -17,6 +17,8 @@
 }
 
 .header-benefits h1{
+
+    font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
     
 }

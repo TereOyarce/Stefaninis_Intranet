@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/infra');
+@import url('http://fonts.cdnfonts.com/css/nexa-bold');
+
 .container-vacancies {
     display: flex;
     flex-direction: column;
@@ -16,24 +19,110 @@
     padding-top: 2rem;
 } 
 
+.header-vacancies h1{
+    font-family: 'Infra', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.header-vacancies p{
+    font-family: 'Infra', sans-serif;
+}
+
 .body-vacancies {
     display: flex;
     flex-direction: row;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    background-color: rgb(159, 143, 188);
+    
 }
+
+.left-container {
+    width: 50%;
+    text-align: center;
+    
+}
+
+.left-container h4{
+    font-size: 25px;
+    font-family: 'Infra', sans-serif;
+}
+
+.left-container p{
+    font-size: 12px;
+    font-family: 'Infra', sans-serif;
+}
+
+.redirec-btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 5rem;
+    width: 30rem;
+    font-family: 'Infra', sans-serif;
+    font-size: 25px;
+    background-color: #009ed760;
+    border: 3px solid rgba(0, 0, 0, 0.589);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+
+.redirec-btn:hover{
+    background-color: #0b16417a;
+    opacity: 1;
+}
+
+.cv-btn{
+    margin-top: 2rem;
+    height: 3rem;
+    width: 15rem;
+    font-family: 'Infra', sans-serif;
+    font-size: 15px;
+    background-color: #d7560060;
+    border: 3px solid rgba(0, 0, 0, 0.589);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+
+.cv-btn:hover{
+    background-color: #631a047a;
+    opacity: 1;
+}
+
 
 .right-container {
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color: blueviolet;
-
+    margin-left: 1rem;
 }
 
-.left-container {
-    width: 50%;
-    background-color: darkgoldenrod;
+.title-container{
+    padding: 5px;
+    text-align: center;
 }
+
+.title-container h2{
+    font-size: 18px;
+    font-family: 'Infra', sans-serif;
+}
+
+.info-container{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.info-container h4{
+    font-size: 15px;
+    font-family: 'Infra', sans-serif;
+}
+
+.info-container p{
+    font-size: 13px;
+    font-family: 'Infra', sans-serif;
+}
+
