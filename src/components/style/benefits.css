@@ -13,11 +13,28 @@
     text-align: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .header-benefits h1{
-    color: rgb(0, 0, 0);
+
+    font-family: 'Infra', sans-serif;
+    color: var(--primarywhite);
+    
+}
+
+.header-benefits li {
+    display: inline;
+    margin-inline: 20px;
+    list-style: none;
+    cursor: pointer;
+    color: var(--primarywhite);
+    font-size: large;
+    font-weight: bold;
+}
+
+.header-benefits li:hover{
+    color: var(--primaryblue);
 }
 
 .body-benefits{
@@ -26,3 +43,23 @@
     flex-wrap: wrap;
     padding-top: 3rem;
 }
+
+.pdfImages-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pdfImages-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primaryblue);
+}
+
+.screenCapture{
+    border: 2px solid var(--primaryblue);
+    border-radius: 10px;
+    margin: 10px;
+ }
