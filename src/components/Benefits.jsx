@@ -32,26 +32,27 @@ export const Benefits = () => {
     <div className='container-benefits'>
       <div className='header-benefits'>
         <h1>Beneficios</h1>
-      </div>
-
-      <div className='body-benefits'>
-      <h1>Beneficios Stefaninier</h1>
-
-      <div>
+        <div>
 
         <li onClick={showBenefits}> Beneficios corporativos</li>
         <li onClick={showConvenios}>Convenios</li>
         <li onClick={showDiscounts}>Descuentos</li>
         <li onClick={showHelp}>Dudas y consultas</li>
       </div>
+      </div>
+
+      <div className='body-benefits'>
+      
+
+      
       <div>
         {dataActual.map((pdfImages) => (
            <div key={pdfImages.id} className="pdfImages-container">
             <h3 className="pdfImages-name">{pdfImages.name}</h3>  
              <img
               src={pdfImages.img}
-              /* width="100%"
-              */
+               width="70%"
+              
               className="screenCapture"
               alt="..."
             /> 
