@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./style/searchbar.css";
+import { Icon } from '@iconify/react';
 
-export const Searchbar = ({ word }) => {
+export const Searchbar = ({ word, inputClass }) => {
   const [searchText, setsearchText] = useState("");
   const [suggest, setSuggets] = useState([]);
   const [wordfound, setwordfound]= useState(true);
@@ -46,8 +47,8 @@ export const Searchbar = ({ word }) => {
     <div className="container-search">
       <input
         type="text"
-        placeholder="Buscar..."
-        className="inputSearch"
+        placeholder="Buscar"
+        className={inputClass}
         value= {searchText}
         onChange={barChange}
       />
