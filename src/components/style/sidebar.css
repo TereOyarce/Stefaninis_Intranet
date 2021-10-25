@@ -4,8 +4,9 @@
     background: #0B1641;
     height: 100vh;
     text-align: center;
-    position: sticky;
     grid-area: 1 / 1 / 6 / 2;
+    position: sticky;
+    top: 0;
 }
 .container-logo{
     background-color: #16857B;
