@@ -3,13 +3,15 @@
     flex-direction: column;
     background: #0B1641;
     height: 100vh;
+    width: 10rem;
     text-align: center;
-    position: sticky;
+    position: fixed;
     grid-area: 1 / 1 / 6 / 2;
 }
 .container-logo{
     background-color: #16857B;
     padding: 1rem;
+
 }
 .img-container .img-profile {
     width: 5rem;

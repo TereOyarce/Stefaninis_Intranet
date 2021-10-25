@@ -7,6 +7,11 @@ export const Links= () =>{
   return(
     <div className='container-links'>
       
+      <div className='header-link'> 
+        <h1>Recursos</h1>
+      </div>
+
+      <div className='body-links'>
       <a target='_blank' href='https://stefanini.konviva.com.br/lms/#/home'>
       <div className='card-container'>
         <div className='overlay'>
@@ -66,7 +71,8 @@ export const Links= () =>{
         </div>
       </div>
       </a>
-
+    
+      </div>
 
     </div>
   )
