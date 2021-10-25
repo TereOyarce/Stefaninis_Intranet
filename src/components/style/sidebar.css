@@ -3,14 +3,16 @@
     flex-direction: column;
     background: #0B1641;
     height: 100vh;
+    width: 10rem;
     text-align: center;
+    position: fixed;
     grid-area: 1 / 1 / 6 / 2;
-    position: sticky;
-    top: 0;
 }
+
 .container-logo{
     background-color: #16857B;
     padding: 1rem;
+
 }
 @media only screen and (max-width:768px){
     .container-logo{

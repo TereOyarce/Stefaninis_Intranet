@@ -5,7 +5,11 @@ import './style/insurance.css';
 export const Insurance= () =>{
   return(
     <div className='containter-insurance'>
-      <h1>LOTS OF INSURANCES</h1>
+      <div className='header-insurance'>
+        <h1>Seguros</h1>
+      </div>
+<div className='body-insurance'></div>
+
     </div>
   )
 }
