@@ -31,13 +31,6 @@ export const Navbar= () =>{
     'skill mapping'
   ]
 
-    const changeStyle=() =>{
-      const element = document.getElementById('category-menu');
-      element.style.display='block';
-    }
-
-    
-
   return(
     <div className="container-navbar">
       
@@ -68,7 +61,7 @@ export const Navbar= () =>{
           <div>
             <button 
             className="btn-bars"
-            onClick= {()=> changeStyle ()}>
+            onClick= {()=> (document.getElementById('category-menu').style.display='block')}>
             <Icon icon="feather:menu" color="white" height="30" rotate={2} hFlip={true} vFlip={true} />
             </button>
           </div>
@@ -79,8 +72,7 @@ export const Navbar= () =>{
           <div>
             <button 
             className= "btn-close"
-            onClick= {()=> (document.getElementById("category-menu").style.display='none')}
-            >
+            onClick= {()=> (document.getElementById("category-menu").style.display='none')}>
             <Icon icon="eva:close-fill" color="#0b1641" height="30" rotate={2} hFlip={true} vFlip={true} />
             </button>
           </div>
