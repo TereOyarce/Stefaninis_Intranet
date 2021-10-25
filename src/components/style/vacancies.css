@@ -27,6 +27,7 @@
 
 .header-vacancies p{
     font-family: 'Infra', sans-serif;
+    color: var(--primarywhite);
 }
 
 .body-vacancies {
