@@ -12,7 +12,12 @@
     position: fixed;
     padding-left: 10rem;
     z-index: 1;
-}
+} 
+/* @media only screen and (max-width:768px) {
+    .container-navbar {
+        justify-content: flex-end;
+    }
+} */
 .logo-navbar {
     width: 6rem;
     align-self: center;
@@ -22,7 +27,7 @@
 .container-gradient {
     display: flex;
     background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
-    width: 100%;
+    width:100%;
     justify-content:space-around;
     align-items: center;
 }
@@ -33,13 +38,17 @@
     border-style: none;
     color:white;
     font-family: 'Infra';
-    height: 100%;
     cursor: pointer;
+    font-size: 18px;
 }
 .input-1:focus, .input-1 {
-    background: none;
-    border-style: none;
-    border-bottom-style:solid;
+    background: transparent;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    height: 25px;
+    width: 200px;
     outline: none !important;
     color: white;
 }
@@ -54,23 +63,19 @@
 @media only screen and (max-width:768px) {
     .btn-bars{
     display:block;
-    top: 0;
-    right: 0;
-    transform: traslate (-100%, 75%);
     font-size:1.8rem;
     cursor:pointer;
-    margin:10px;
     border-style: none;
     background: none;
+    padding-right: 10rem;
     }
 }
 #category-menu {
     display:none;
     position:fixed;
     background: #E8E9ED;
-    height: max-content;
-    width: 100%;
     z-index: 99;
+    width: 60%;
 }
 @media only screen and (min-width:769px) {
     #category-menu {
@@ -82,6 +87,7 @@
     border-style: none;
     background: none;
     padding: 15px;
+    text-align: left;
 }
 .category-3:hover{
     background-color: #0B1641;
@@ -89,25 +95,27 @@
     width: 100%;
     text-align: left;
 }
-.btn-close {
-    background: red;
-    /* border-style: none;
-    /* margin-left: 55%; */
-    /* float: right; */
-
-}
-.close{
-    background: royalblue;
-    border-style: solid;
+.close {
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-close {
+    border-style: none;
+    background: none;
+    margin:10px;
 }
 .input-2:focus, .input-2{
-    border-style: none;
-    border-bottom-style:solid;
-    background: none;
+    border-style: solid;
+    border-color:#0B1641;
+    background: transparent;
     margin: 1rem;
     outline: none !important;
     color: #0B1641;
+    border-radius: 15px;
+    border-width: thin;
+    height: 25px;
+    width: 170px;
 }
 
 
