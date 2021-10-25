@@ -26,7 +26,7 @@ export const Navbar= () =>{
     'trabajo',
     'postular',
     'kenoby',
-    'ýammer',
+    'yammer',
     'skill mapping'
   ]
 
@@ -37,8 +37,7 @@ export const Navbar= () =>{
           
           <button 
           className= "category"
-          onClick= {()=> (window.open('http://verticales.inetcloud.cl:8082/rrhh/login.aspx'))}
-          >RRHH</button>
+          onClick= {()=> (window.open('http://verticales.inetcloud.cl:8082/rrhh/login.aspx'))}>RRHH</button>
           
           <Link to='/links'>
           <button className="category">Recursos</button>
@@ -55,7 +54,7 @@ export const Navbar= () =>{
           <Link to='/vacancies'>
           <button className="category">Vacantes</button>
           </Link>
-          
+
           <Searchbar word={intranetSearch}/>
           
 
