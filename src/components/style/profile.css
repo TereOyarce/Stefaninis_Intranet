@@ -5,7 +5,7 @@
     }
     h1 {
         text-align: center;
-        padding: 3rem;
+        padding: 2rem;
         margin-top: 2rem;
         font-family: 'Nexa';
         color: #0B1641;
@@ -13,18 +13,17 @@
     }
     form {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 20px;
-        width: 80%;
+        flex-direction: column;
+       width: 60%;
         margin-left: 2rem;
-        padding: 1rem;
-        
-        
+       
         
     }
+    label{
+        margin-top: 0.5rem;
+    }
     .input-profile{
-        margin-top: 2rem;
+       
         padding: 0.5rem;
         border-color: #16857B;
         border-radius: 0.5rem;

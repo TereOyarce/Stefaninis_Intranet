@@ -27,7 +27,7 @@ export const Navbar= () =>{
     'trabajo',
     'postular',
     'kenoby',
-    'ýammer',
+    'yammer',
     'skill mapping'
   ]
 
@@ -62,7 +62,7 @@ export const Navbar= () =>{
           <Link to='/vacancies'>
           <button className="category">Vacantes</button>
           </Link>
-          
+
           <Searchbar word={intranetSearch}/>
 
           <div>
