@@ -56,10 +56,11 @@
     font-size: 20px;
     font-weight: bold;
     color: var(--primaryblue);
+    padding-bottom: 20px;
 }
 
 .screenCapture{
-    border: 2px solid var(--primaryblue);
     border-radius: 10px;
     margin: 10px;
+    box-shadow: 2px 2px 3px 3px var(--secondarygrey) ;
  }
