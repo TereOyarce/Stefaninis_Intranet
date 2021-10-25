@@ -9,6 +9,9 @@
     grid-area: 1 / 2 / 2 / 6;
     height: 4rem;
     width: 100%;
+    position: fixed;
+    padding-left: 10rem;
+    z-index: 1;
 }
 .logo-navbar {
     width: 6rem;

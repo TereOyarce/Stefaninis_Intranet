@@ -30,6 +30,11 @@ export const Benefits = () => {
   };
   return (
     <div className='container-benefits'>
+      <div className='header-benefits'>
+        <h1>Beneficios</h1>
+      </div>
+
+      <div className='body-benefits'>
       <h1>Beneficios Stefaninier</h1>
 
       <div>
@@ -57,6 +62,8 @@ export const Benefits = () => {
              
               
              
+
+    </div>
 
     </div>
 

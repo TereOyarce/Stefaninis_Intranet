@@ -18,7 +18,6 @@ export const Intranet= () =>{
       <Router>
         <Navbar />
         <Sidebar />
-        
           <Switch>
             <Route path='/vacancies' component={Vacancies}/>
             <Route path='/calendar' component={Calendar}/>
