@@ -20,7 +20,7 @@
     display: flex;
     background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
     width: 100%;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
 }
 .category {
@@ -33,8 +33,15 @@
     height: 100%;
     cursor: pointer;
 }
+.input-1:focus, .input-1 {
+    background: none;
+    border-style: none;
+    border-bottom-style:solid;
+    outline: none !important;
+    color: white;
+}
 @media only screen and (max-width:768px) {
-    .category, .inputSearch  {
+    .category, .input-1 {
         display:none;
     }
 }
@@ -60,6 +67,7 @@
     background: #E8E9ED;
     height: max-content;
     width: 100%;
+    z-index: 99;
 }
 @media only screen and (min-width:769px) {
     #category-menu {
@@ -82,6 +90,13 @@
     border-style: none;
     background: none;
 }
-
+.input-2:focus, .input-2{
+    border-style: none;
+    border-bottom-style:solid;
+    background: none;
+    margin: 1rem;
+    outline: none !important;
+    color: #0B1641;
+}
 
 

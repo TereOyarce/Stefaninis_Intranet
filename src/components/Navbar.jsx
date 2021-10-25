@@ -56,7 +56,7 @@ export const Navbar= () =>{
           <button className="category">Vacantes</button>
           </Link>
 
-          <Searchbar word={intranetSearch}/>
+          <Searchbar word={intranetSearch} inputClass="input-1"/>
 
           <div>
             <button 
@@ -110,7 +110,7 @@ export const Navbar= () =>{
           </div>
 
           <div>
-          <Searchbar word={intranetSearch}/>
+          <Searchbar word={intranetSearch} inputClass="input-2"/>
           </div>          
       </div>
     </div>
