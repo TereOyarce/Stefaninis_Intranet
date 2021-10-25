@@ -47,7 +47,7 @@ export const Searchbar = ({ word, inputClass }) => {
     <div className="container-search">
       <input
         type="text"
-        placeholder="Buscar"
+        placeholder="   ¿Qué estás buscando?"
         className={inputClass}
         value= {searchText}
         onChange={barChange}
