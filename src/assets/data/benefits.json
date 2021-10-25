@@ -2,120 +2,137 @@
 {
   "beneficios": [
     {
-    "id": 1,
-      "img1": "src/assets/img/beneficios1.jpg",
-      "img2": "./assets/img/beneficios2.jpg",
-      "img3": "./assets/img/beneficios3.jpg",
-      "img4": "./assets/img/beneficios4.jpg",
-      "img5": "./assets/img/beneficios5.jpg"
+      "id": 1,
+      "name": "Beneficios familiares",
+      "img": "https://i.imgur.com/siHILMP.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://i.imgur.com/E0RzzEb.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://i.imgur.com/mP3SNHC.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://i.imgur.com/NXu7xOH.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://i.imgur.com/2RYbhZZ.jpg"
     }
   ],
-
+ 
   "convenios": [
     {
-      "id":2,
-      "name": "Mutual de seguridad y Caja de compensación Los Andes",
-      "img": "./assets/img/convenios1.jpg"
-    },
-    { "id":3,
-      "name": "Centro de terapia del comportamiento",
-      "img": "./assets/img/convenios2.jpg"
-    },
-    {
-      "id":4,
-      "name": "Clínica dental Cumbres",
-      "img": "./assets/img/convenios3.jpg"
-    },
-    { "id":5,
-      "name": "Instituto oftalmológico IOI",
-      "img": "./assets/img/convenios4.jpg"
-    },
-    {
       "id":6,
+      "name": "Mutual de seguridad y Caja de compensación Los Andes",
+      "img": "https://i.imgur.com/yKGgtcl.jpg"
+    },
+    { "id":7,
+      "name": "Centro de terapia del comportamiento",
+      "img": "https://i.imgur.com/D1qCHrC.jpg"
+    },
+    {
+      "id":8,
+      "name": "Clínica dental Cumbres",
+      "img": "https://i.imgur.com/4gpwZPB.jpg"
+    },
+    { "id":9,
+      "name": "Instituto oftalmológico IOI",
+      "img": "https://i.imgur.com/I9puvFU.jpg"
+    },
+    {
+      "id":10,
       "name": "Nutricionista",
-      "img": "./assets/img/convenios5.jpg"
+      "img": "https://i.imgur.com/L71UHWl.jpg"
     },
-    {   "id":7,
+    {   "id":11,
       "name": "Gimnsio Pacific Fitness",
-      "img": "./assets/img/convenios6.jpg"
+      "img": "https://i.imgur.com/kQbrGuD.jpg"
     },
-    {   "id":8,
+    {   "id":12,
       "name": "Open English",
-      "img": "./assets/img/convenios7.jpg"
+      "img": "https://i.imgur.com/PEeiLAe.jpg"
     },
-    {   "id":9,
+    {   "id":13,
       "name": "Next U y Novate",
-      "img": "./assets/img/convenios8.jpg"
+      "img": "https://i.imgur.com/rLUtSAe.jpg"
     },
     {   
-        "id":10,
+        "id":14,
       "name": "Hertz, Kidzania y La Tercera",
-      "img": "./assets/img/convenios9.jpg"
+      "img": "https://i.imgur.com/VDn8EWi.jpg"
     },
     {
-        "id":11,
+      "id":15,
       "name": "Sistema Previsional",
-      "img": "./assets/img/convenios10.jpg"
+      "img": "https://i.imgur.com/2HL6vsC.jpg"
     },
     {
-        "id":12,
-      "name": "Ópticas ",
-      "img": "./assets/img/convenios11.jpg",
-      "img2": "./assets/img/convenios12.jpg"
+      "id":16,
+      "name": "Ópticas Schilling ",
+      "img": "https://i.imgur.com/Tfd3X0Q.jpg"
     },
     {
-        "id":13,
+      "id": 17,
+      "name": "Ópticas El Bosque",
+      "img": "https://i.imgur.com/oV7AutK.jpg"
+    },
+    {
+      "id":18,
       "name": "Banco Itaú",
-      "img": "./assets/img/convenios13.jpg"
+      "img": "https://i.imgur.com/15TSCzg.jpg"
     }
   ],
   "descuentos": [
     {
-        "id":14,
-      "name": "Barbaría La Ratonera",
-      "img": "./assets/img/regaloneo1.jpg"
-    },
-    {
-        "id":15,
-      "name": "Centro de masajes y terapias alternativas",
-      "img": "./assets/img/regaloneo2.jpg"
-    },
-    {
-        "id":16,
-      "name": "Ilustraciones personalizadas",
-      "img": "./assets/img/regaloneo3.jpg"
-    },
-    {
-        "id":17,
-      "name": "Té orgánico y accesorios para té",
-      "img": "./assets/img/regaloneo4.jpg"
-    },
-    {
-        "id":18,
-      "name": "Take a break",
-      "img": "./assets/img/regaloneo5.jpg"
-    },
-    {
         "id":19,
-      "name": "Suyana, espacio holístico",
-      "img": "./assets/img/regaloneo6.jpg"
+      "name": "Barbaría La Ratonera",
+      "img": "https://i.imgur.com/9fPaHKg.jpg"
     },
     {
         "id":20,
-      "name": "CMUSIC",
-      "img": "./assets/img/regaloneo7.jpg"
+      "name": "Centro de masajes y terapias alternativas",
+      "img": "https://i.imgur.com/ruEYqPb.jpg"
     },
     {
         "id":21,
+      "name": "Ilustraciones personalizadas",
+      "img": "https://i.imgur.com/0oIPxOw.jpg"
+    },
+    {
+        "id":22,
+      "name": "Té orgánico y accesorios para té",
+      "img": "https://i.imgur.com/MpxzvOV.jpg"
+    },
+    {
+        "id":23,
+      "name": "Take a break",
+      "img": "https://i.imgur.com/UBHU5uq.jpg"
+    },
+    {
+        "id":24,
+      "name": "Suyana, espacio holístico",
+      "img": "https://i.imgur.com/owCK66X.jpg"
+    },
+    {
+        "id":25,
+      "name": "CMUSIC",
+      "img": "https://i.imgur.com/h7GliIC.jpg"
+    },
+    {
+        "id":26,
       "name": "Escapology",
-      "img": "./assets/img/regaloneo8.jpg"
+      "img": "https://i.imgur.com/LfwGRy2.jpg"
     }
   ],
   "dudas": [
     {
-        "id":22,
+        "id":27,
       "name": "Dudas o consultas",
-      "img": "./assets/img/ayuda1.jpg"
+      "img": "https://i.imgur.com/PRbwBuA.jpg"
     }
   ]
 }

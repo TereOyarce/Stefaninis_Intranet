@@ -28,9 +28,6 @@ export const Benefits = () => {
     setDataActual(data.dudas)
 
   };
-
-
-
   return (
     <div className='container-benefits'>
       <h1>Beneficios Stefaninier</h1>
@@ -48,8 +45,8 @@ export const Benefits = () => {
             <h3 className="pdfImages-name">{pdfImages.name}</h3>  
              <img
               src={pdfImages.img}
-              width="100%"
-              height="150%"
+              /* width="100%"
+              */
               className="screenCapture"
               alt="..."
             /> 
