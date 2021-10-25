@@ -3,40 +3,44 @@
     flex-direction: column;
     position: inherit;
     justify-content: center;
-    grid-area: 1/ 2 / 3 / 6;
-   
+    grid-area: 1 / 2 / 5 / 6;
+    padding-left: 4rem;
 }
 
-.header-link{
+.header-link {
     height: 15rem;
-    width: 100%;
     background-color: #16857c88;
     text-align: center;
-    
+    padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
 }
 
-.header-link h1{
+.header-link h1 {
     color: rgb(0, 0, 0);
 }
 
-.body-links{
+.body-links {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
 .card-container {
-    width: 15rem;
+    width: 13rem;
     height: 15rem;
-    top:0; right: 0; left: 0; bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     margin: auto;
     background: url('https://i.imgur.com/Iaym2L0.jpg');
     background-color: black;
@@ -47,7 +51,7 @@ a{
     transition: all .1s ease-in-out;
 }
 
-.title-box{
+.title-box {
     width: 100%;
     height: 3rem;
     background-color: #16857cc2;
@@ -57,7 +61,7 @@ a{
     text-align: center;
 }
 
-.title-box h2{
+.title-box h2 {
     font-size: 15px;
     line-height: 40px;
     padding-top: 8px;
@@ -74,14 +78,15 @@ a{
     transition: all 0.3s;
     font-family: 'Playfair Display', serif;
 }
-  
+
 .overlay h1 {
     font-size: 30px;
     line-height: 40px;
     padding-top: 20px;
     letter-spacing: 3px;
     transform: translateY(40px);
-    transition: all 0.7s;;
+    transition: all 0.7s;
+    ;
 }
 
 .overlay p {
@@ -90,16 +95,16 @@ a{
     opacity: 1;
 }
 
-.card-container:hover{
+.card-container:hover {
     transform: scale(1.04);
-    
+
 }
 
 .card-container:hover .overlay {
     opacity: 1;
 }
 
-.card-container:hover .title-box{
+.card-container:hover .title-box {
     background-color: #0b1641bd;
     opacity: 1;
     color: rgb(255, 255, 255);

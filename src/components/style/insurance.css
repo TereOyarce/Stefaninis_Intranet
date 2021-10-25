@@ -4,27 +4,27 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
+    padding-left: 4rem;
 }
 
-.header-insurance{
+.header-insurance {
     height: 15rem;
-    width: 100%;
-    margin-left: 10rem;
-    background-color: #16857c;
-    color: white;
+    width: 100vw;
+    background-color: #16857c88;
     text-align: center;
-    padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
 }
 
-.header-insurance h1{
-    color: rgb(0, 0, 0);
+.header-insurance h1 {
+    color: white;
 }
 
-.body-insurance{
+.body-insurance {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 3rem;
+    background-color: violet;
 }
