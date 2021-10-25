@@ -1,0 +1,120 @@
+{
+  "beneficios": [
+    {
+    "id": 1,
+      "img1": "src/assets/img/beneficios1.jpg",
+      "img2": "./assets/img/beneficios2.jpg",
+      "img3": "./assets/img/beneficios3.jpg",
+      "img4": "./assets/img/beneficios4.jpg",
+      "img5": "./assets/img/beneficios5.jpg"
+    }
+  ],
+
+  "convenios": [
+    {
+      "id":2,
+      "name": "Mutual de seguridad y Caja de compensación Los Andes",
+      "img": "./assets/img/convenios1.jpg"
+    },
+    { "id":3,
+      "name": "Centro de terapia del comportamiento",
+      "img": "./assets/img/convenios2.jpg"
+    },
+    {
+      "id":4,
+      "name": "Clínica dental Cumbres",
+      "img": "./assets/img/convenios3.jpg"
+    },
+    { "id":5,
+      "name": "Instituto oftalmológico IOI",
+      "img": "./assets/img/convenios4.jpg"
+    },
+    {
+      "id":6,
+      "name": "Nutricionista",
+      "img": "./assets/img/convenios5.jpg"
+    },
+    {   "id":7,
+      "name": "Gimnsio Pacific Fitness",
+      "img": "./assets/img/convenios6.jpg"
+    },
+    {   "id":8,
+      "name": "Open English",
+      "img": "./assets/img/convenios7.jpg"
+    },
+    {   "id":9,
+      "name": "Next U y Novate",
+      "img": "./assets/img/convenios8.jpg"
+    },
+    {   
+        "id":10,
+      "name": "Hertz, Kidzania y La Tercera",
+      "img": "./assets/img/convenios9.jpg"
+    },
+    {
+        "id":11,
+      "name": "Sistema Previsional",
+      "img": "./assets/img/convenios10.jpg"
+    },
+    {
+        "id":12,
+      "name": "Ópticas ",
+      "img": "./assets/img/convenios11.jpg",
+      "img2": "./assets/img/convenios12.jpg"
+    },
+    {
+        "id":13,
+      "name": "Banco Itaú",
+      "img": "./assets/img/convenios13.jpg"
+    }
+  ],
+  "descuentos": [
+    {
+        "id":14,
+      "name": "Barbaría La Ratonera",
+      "img": "./assets/img/regaloneo1.jpg"
+    },
+    {
+        "id":15,
+      "name": "Centro de masajes y terapias alternativas",
+      "img": "./assets/img/regaloneo2.jpg"
+    },
+    {
+        "id":16,
+      "name": "Ilustraciones personalizadas",
+      "img": "./assets/img/regaloneo3.jpg"
+    },
+    {
+        "id":17,
+      "name": "Té orgánico y accesorios para té",
+      "img": "./assets/img/regaloneo4.jpg"
+    },
+    {
+        "id":18,
+      "name": "Take a break",
+      "img": "./assets/img/regaloneo5.jpg"
+    },
+    {
+        "id":19,
+      "name": "Suyana, espacio holístico",
+      "img": "./assets/img/regaloneo6.jpg"
+    },
+    {
+        "id":20,
+      "name": "CMUSIC",
+      "img": "./assets/img/regaloneo7.jpg"
+    },
+    {
+        "id":21,
+      "name": "Escapology",
+      "img": "./assets/img/regaloneo8.jpg"
+    }
+  ],
+  "dudas": [
+    {
+        "id":22,
+      "name": "Dudas o consultas",
+      "img": "./assets/img/ayuda1.jpg"
+    }
+  ]
+}
