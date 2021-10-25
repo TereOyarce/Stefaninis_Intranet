@@ -45,9 +45,7 @@ export const Navbar= () =>{
           
           <button 
           className= "category"
-          onClick= {()=> (window.open('http://verticales.inetcloud.cl:8082/rrhh/login.aspx'))}
-          >RRHH
-          </button>
+          onClick= {()=> (window.open('http://verticales.inetcloud.cl:8082/rrhh/login.aspx'))}>RRHH</button>
         
           <Link to='/links'>
           <button className="category">Recursos</button>
