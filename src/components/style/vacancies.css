@@ -4,35 +4,114 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
+    padding-left: 4rem;
     }
 
 .header-vacancies {
     height: 15rem;
     background-color: #16857c;
     text-align: center;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     padding-right: 2rem;
     padding-top: 2rem;
 } 
 
+.header-vacancies h1{
+    font-family: 'Infra', sans-serif;
+    color: var(--primarywhite);
+}
+
+.header-vacancies p{
+    font-family: 'Infra', sans-serif;
+    color: var(--primarywhite);
+}
+
+.redirec-btn{
+    height: 3rem;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    color: var(--primaryblue);
+    font-size: large;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.redirec-btn:hover{
+    color: var(--secondarygrey);
+}
+
+
 .body-vacancies {
     display: flex;
-    flex-direction: row;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    background-color: rgb(159, 143, 188);
-}
-
-.right-container {
-    display: flex;
     flex-direction: column;
-    width: 50%;
-    background-color: blueviolet;
-
+    padding-top: 3rem;
 }
 
-.left-container {
-    width: 50%;
-    background-color: darkgoldenrod;
+.top-container {
+    text-align: center;
 }
+
+
+.top-container h4, p{
+    font-family: 'Infra', sans-serif;
+}
+
+.cv-btn{
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 10rem;
+    font-family: 'Infra', sans-serif;
+    font-size: 15px;
+    background-color: var(--primarygreen);
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+}
+
+.cv-btn:hover{
+    background-color: var(--primaryblue);
+    opacity: 1;
+}
+
+.title-container{
+    padding: 5px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.title-container h2{
+    font-size: 17px;
+    font-family: 'Infra', sans-serif;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.info-container{
+    height: 15rem;
+    width: 13rem;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.info-container h4{
+    font-size: 15px;
+    font-family: 'Infra', sans-serif;
+}
+
+.info-container p{
+    font-size: 14px;
+    font-family: 'Infra', sans-serif;
+    padding-top: 1rem;
+}
+
+

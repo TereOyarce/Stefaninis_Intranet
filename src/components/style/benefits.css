@@ -4,6 +4,7 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
+    padding-left: 4rem;
 }
 
 .header-benefits{
@@ -16,7 +17,24 @@
 }
 
 .header-benefits h1{
-    color: rgb(0, 0, 0);
+
+    font-family: 'Infra', sans-serif;
+    color: var(--primarywhite);
+    
+}
+
+.header-benefits li {
+    display: inline;
+    margin-inline: 20px;
+    list-style: none;
+    cursor: pointer;
+    color: var(--primarywhite);
+    font-size: large;
+    font-weight: bold;
+}
+
+.header-benefits li:hover{
+    color: var(--primaryblue);
 }
 
 .body-benefits{
@@ -25,3 +43,24 @@
     flex-wrap: wrap;
     padding-top: 3rem;
 }
+
+.pdfImages-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pdfImages-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primaryblue);
+    padding-bottom: 20px;
+}
+
+.screenCapture{
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px 3px var(--secondarygrey) ;
+ }
