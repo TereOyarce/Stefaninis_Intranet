@@ -48,6 +48,8 @@
     color: white;
 }
 @media only screen and (max-width:768px) {
+
+
     .category, .input-1 {
         display:none;
     }
