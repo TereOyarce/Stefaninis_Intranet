@@ -9,14 +9,14 @@ import { doc, setDoc, addDoc, collection } from "firebase/firestore";
 
 export const Profile = () => {
 
-  const [name, setName] = useState('');
-  const [rut, setRut] = useState('');
-  const [gender, setGender] = useState('');
-  const [birthday, setBirthday] = useState('');
-  const [address, setAddress] = useState('');
-  const [phone, setPhone] = useState('');
-  const [familiar, setFamiliar] = useState('');
-  const [tshirt, setTshirt] = useState('');
+  const [name, setName] = useState('Andrés Quilodrán');
+  const [rut, setRut] = useState(168547362);
+  const [gender, setGender] = useState('Masculino');
+  const [birthday, setBirthday] = useState('05-08-1996');
+  const [address, setAddress] = useState('Avenida Siempre Viva #133');
+  const [phone, setPhone] = useState('9604682');
+  const [familiar, setFamiliar] = useState('0');
+  const [tshirt, setTshirt] = useState('M');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -46,7 +46,7 @@ export const Profile = () => {
 
 
       .then(() => {
-        console.log("Guardado correctamente");
+        alert("Guardado correctamente");
       })
       .catch((error) => {
         console.log(error.message);
@@ -59,7 +59,7 @@ export const Profile = () => {
 <div className='header-profile'><h1>Mi Perfil</h1></div>
 
 <div className='body-profile'>
-      
+  <div className='profile-shadow'>
       <img src={profileDefault} alt="profile image" className='profile-img' />
 
       <form onSubmit={handleSubmit}>
@@ -87,6 +87,8 @@ export const Profile = () => {
         </select>
         <button type="submit" className='profile-button'>GUARDAR</button>
       </form>
+      </div>
+      
       </div>
     </div>
   )
