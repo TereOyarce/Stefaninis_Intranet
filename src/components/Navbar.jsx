@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import './style/navbar.css';
 import {Searchbar} from "./Searchbar";
 import { Icon } from '@iconify/react';
+import logo from '../assets/img/logo.png';
+
 
 export const Navbar= () =>{
 
@@ -36,6 +38,11 @@ export const Navbar= () =>{
       
       <div className="container-gradient">
           
+      <Link to='/'>
+        <div className="container-logo"> 
+          <img src={logo} alt="Stefanini" className="logo-navbar"/>
+          </div>
+        </Link>
       <button 
           className= "category"
           onClick= {()=> (window.open('http://verticales.inetcloud.cl:8082/rrhh/login.aspx'))}>RRHH</button>

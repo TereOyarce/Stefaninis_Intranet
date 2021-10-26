@@ -1,4 +1,28 @@
 .container-calendar {
     display: flex;
+    flex-direction: column;
+    grid-area: 1 / 2 / 4 / 6;
+}
+
+.calendar-profile {
+    height: 15rem;
+    width: 100%;
+    background-color: #16857c;
+    text-align: center;
+}
+
+.calendar-profile h1 {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 6rem;
+    font-family: 'Nexa';
+    color: white;
+
+}
+
+.body-calendar {
+    display: flex;
     justify-content: center;
-    }
+    padding-top: 3rem;
+    align-items: center;
+}
