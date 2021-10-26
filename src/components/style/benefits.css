@@ -20,6 +20,9 @@
 
     font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
+    padding-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -31,6 +34,7 @@
     color: var(--primarywhite);
     font-size: large;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 .header-benefits li:hover{
