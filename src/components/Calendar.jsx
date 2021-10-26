@@ -18,6 +18,7 @@ export const Calendar= () =>{
         
         events={[
           { title: 'Talent Fest!', date: '2021-10-26' },
+          {title: 'Demo Night y fin Talent Fest', date: '2021-10-27'},
           { title: 'Birthday', date: '2021-10-28' }
         ]}
       />

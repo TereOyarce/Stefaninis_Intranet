@@ -10614,7 +10614,11 @@
 "sass@^1.3.0", "sass@^1.43.3":
 =======
 "sass@^1.3.0":
+<<<<<<< HEAD
+>>>>>>> 7499d8c6695d1f3f8f30b15b935c58c0dcff23cd
+=======
 >>>>>>> d594a9d83a24210ee6128b2ac174be88ee855b73
+>>>>>>> 1e28da923420f5c50cbf5d5a24c0d6459e1eec9c
   "integrity" "sha512-BJnLngqWpMeS65UvlYYEuCb3/fLxDxhHtOB/gWPxs6NKrslTxGt3ZxwIvOe/0Jm4tWwM/+tIpE3wj4dLEhPDeQ=="
   "resolved" "https://registry.npmjs.org/sass/-/sass-1.43.3.tgz"
   "version" "1.43.3"

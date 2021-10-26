@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+/* import ReactDOM from "react-dom"; */
 import Carousel from "react-simply-carousel";
 import './style/starting.css'
 import { Link } from "react-router-dom";
