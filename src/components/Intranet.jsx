@@ -9,6 +9,7 @@ import{Profile} from "./Profile";
 import {Calendar} from "./Calendar";
 import {Vacancies} from "./Vacancies";
 import './style/intranet.css';
+import Starting from "./Starting";
 import { Auth } from "./Auth";
 
 
@@ -26,6 +27,7 @@ export const Intranet= () =>{
             <Route path='/links' component={Links}/>
             <Route path='/benefits' component={Benefits}/>
             <Route path='/insurance' component={Insurance}/>
+            <Route path='/' component={Starting}/>
             <Route path='/auth' component={Auth}/>
           </Switch>
         </Router>        
