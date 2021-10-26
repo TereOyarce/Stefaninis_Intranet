@@ -17,8 +17,8 @@ export const Calendar= () =>{
         initialView="dayGridMonth"
         
         events={[
-          { title: 'event 1', date: '2021-10-26' },
-          { title: 'event 2', date: '2021-10-27' }
+          { title: 'Talent Fest!', date: '2021-10-26' },
+          { title: 'Birthday', date: '2021-10-28' }
         ]}
       />
 
