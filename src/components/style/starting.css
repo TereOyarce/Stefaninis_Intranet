@@ -1,12 +1,40 @@
-.Starting {
-    font-family: sans-serif;
+.Starting{
+  font-family: sans-serif;
+  text-align: center;
+  grid-area: 2 / 2 / 6 / 6;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/ 2 / 6 / 6;
+  }
+  .header-carousel {
+    height: 15rem;
+    background-color: #16857c;
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
    
   }
-  .carousel-container {
-    grid-area: 2 / 3 / 5 / 5;
-    display: flex;
-    justify-content: center;
+  .header-carousel h1 {
+    text-align: center;
+    color: white;
     margin-top: 5rem;
-    margin-left: 5rem;
   }
+  .header-carousel p{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+    margin-right: 5rem;
+    color: white;
+    font-style: italic;
+    
+  }
+ 
+ .body-carousel{
+  
+  display: flex;
+  align-self: center;
+  margin-top: 2rem;
+ }
