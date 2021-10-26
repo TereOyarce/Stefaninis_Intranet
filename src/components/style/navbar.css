@@ -21,12 +21,12 @@
     margin-bottom: 1rem;
     width: 8rem ;
 }
+
 .logo-navbar {
     width: 6rem;
-   margin-left: 0.5rem;
-    
-    
+   margin-left: 0.5rem;    
 }
+
 .container-gradient {
     display: flex;
     background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
@@ -44,6 +44,11 @@
     cursor: pointer;
     font-size: 18px;
 }
+
+.category:hover {
+    color:#0B1641;
+}
+
 .input-1:focus, .input-1 {
     background: transparent;
     border-radius: 15px;

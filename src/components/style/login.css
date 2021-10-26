@@ -1,9 +1,6 @@
 .login-container {
   width: 100vw;
   height: 100vh;
-  /* display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);*/
   grid-area: 1 / 1 / 6 / 6;
   display: flex;
   background: linear-gradient(
@@ -35,18 +32,14 @@
   align-items: center;
   align-content: center;
   justify-content: center;
-  width: 620px;
-  height: 650px;
+  width: 450px;
+  height: 580px;
   left: 755px;
   top: 66px;
   background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%,rgba(255, 255, 255, 0) 100%);
   backdrop-filter: blur(140px);
   border-radius: 25px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-
-  
-
-
 }
 
 .logo-container {
@@ -66,11 +59,12 @@
   top: 459px;
 }
 
-h1 {
+.form-title h1 {
   color: var(--primarywhite);
   font-family: 'Infra', sans-serif;
   font-weight: normal; 
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin: 2rem;
 }
 
 form {
@@ -84,39 +78,37 @@ form {
   flex-wrap: wrap;
  }
 
- 
-
- input{
+ .form-input input{
    border: 0;
    background: none;
    text-align: center;
    border-bottom: 0.5px solid #707073;
-   width: 60%;
+   width: 100%;
    align-items: center;
    outline: none;
    font-size: 15px;
    color: var(--secondarygrey);
  }
 
- input:focus-visible{
+ .form-input input:focus-visible{
    outline: none;
    background: #202C52;
    color: var(--primarywhite);
-
  }
 
- button{
+ .form-input button{
   width: 180px;
-  height: 40px;  
+  height: 50px;  
   background: var(--primarywhite);
   border: none;
   border-radius: 30px;
   font-family: 'Infra', sans-serif;
   font-weight: bolder;
   font-size: 18px;
+  margin: 1.5rem;
  }
 
- button:hover{
+ .form-input button:hover{
    background: var(--primarygreen);
    color: var(--primarywhite)
  }
@@ -129,14 +121,11 @@ form {
    flex-wrap: wrap;
    align-items: center;
    justify-content: flex-end;
-   padding: 20px;
    margin-left: 6%;
-
  }
 
  .miniLogo{
    width: 100px;
-
  }
   
   
