@@ -56,7 +56,7 @@ export const Insurance= () =>{
       >
       <Icon icon="bi:play-fill" color="#0b1641" height="60" rotate={2} hFlip={true} vFlip={true} />  
       Mira este video</button>
-      <Video />
+      {/* <Video /> */}
     </div>  
 
     <div className="manual-insurance">
@@ -91,6 +91,7 @@ export const Insurance= () =>{
       >
       <Icon icon="bi:play-fill" color="#0b1641" height="60" rotate={2} hFlip={true} vFlip={true} />  
       Mira este video</button>
+      < Video />
     </div>    
 
 

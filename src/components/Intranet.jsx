@@ -11,7 +11,6 @@ import {Vacancies} from "./Vacancies";
 import './style/intranet.css';
 
 
-
 export const Intranet= () =>{
   return(
     <div className="container-intranet">
