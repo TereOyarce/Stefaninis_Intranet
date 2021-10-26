@@ -115,3 +115,28 @@
 }
 
 
+@media only screen and (max-width:768px){
+
+    .container-vacancies{
+        padding-left: 6rem;
+    }
+     
+    .header-vacancies p{
+        padding-left: 1rem;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container{
+        height: 8rem;
+        width: 30rem;
+        border: 2px solid rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+  
+}
