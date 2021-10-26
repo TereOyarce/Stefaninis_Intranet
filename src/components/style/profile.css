@@ -7,7 +7,7 @@
 .header-profile {
     height: 15rem;
     width: 100%;
-    background-color: #16857c;
+    background: linear-gradient(180deg, #16857B 0%, rgba(22, 133, 123, 0.95) 48.75%, rgba(22, 133, 123, 0.75) 70.62%, rgba(98, 161, 155, 0.140553) 87.29%, rgba(196, 196, 196, 0) 100%);
     text-align: center;
 }
 
@@ -25,8 +25,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
- padding-top: 3rem;
- align-items: center;
+    padding-top: 3rem;
+    align-items: center;
+
+}
+
+.profile-shadow {
+    -webkit-box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
 }
 
 form {
@@ -34,6 +48,7 @@ form {
     flex-direction: column;
     width: 60%;
     margin-left: 2rem;
+
 
 
 }
@@ -47,6 +62,7 @@ label {
     padding: 0.5rem;
     border-color: #16857B;
     border-radius: 0.5rem;
+    color: #16857B;
 }
 
 #t-shirt {
@@ -59,7 +75,7 @@ label {
 
 .profile-img {
     width: 8rem;
-    
+margin-left: 2rem;
     border-radius: 50%;
     margin-bottom: 1rem;
 
