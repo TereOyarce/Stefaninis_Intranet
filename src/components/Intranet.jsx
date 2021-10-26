@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Switch,Route,Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch,Route} from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { Links } from "./Links";
 import { Benefits } from "./Benefits";
@@ -9,6 +9,7 @@ import{Profile} from "./Profile";
 import {Calendar} from "./Calendar";
 import {Vacancies} from "./Vacancies";
 import './style/intranet.css';
+import { Auth } from "./Auth";
 
 
 
@@ -25,6 +26,7 @@ export const Intranet= () =>{
             <Route path='/links' component={Links}/>
             <Route path='/benefits' component={Benefits}/>
             <Route path='/insurance' component={Insurance}/>
+            <Route path='/auth' component={Auth}/>
           </Switch>
         </Router>        
     </div>
