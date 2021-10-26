@@ -85,12 +85,6 @@ export const Insurance= () =>{
      <div className="refund-insurance">
       <h3>REEMBOLSO</h3>
       <h4>Aprende a usar la app de reembolso</h4>
-      <button 
-      className="btn-insurance"
-      onClick=""
-      >
-      <Icon icon="bi:play-fill" color="#0b1641" height="60" rotate={2} hFlip={true} vFlip={true} />  
-      Mira este video</button>
       < Video />
     </div>    
 

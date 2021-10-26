@@ -16,8 +16,8 @@ const Video = ({ ytId }) => {
         onClose={() => setOpen(false)}
       />
 
-      <button className="btn-primary" onClick={() => setOpen(true)}>
-        Abrir
+      <button className="btn-insurance" onClick={() => setOpen(true)}>
+      ▶Mira este video
       </button>
     </React.Fragment>
   );
