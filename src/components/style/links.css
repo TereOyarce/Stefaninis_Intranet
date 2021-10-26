@@ -1,6 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/infra');
-@import url('http://fonts.cdnfonts.com/css/nexa-bold');
-
 
 .container-links {
     display: flex;
@@ -45,7 +42,7 @@ a {
     text-decoration: none;
 }
 
-.card-container {
+.card-container1 {
     width: 13rem;
     height: 15rem;
     top: 0;
@@ -53,7 +50,71 @@ a {
     left: 0;
     bottom: 0;
     margin: auto;
-    background: url('https://i.imgur.com/Iaym2L0.jpg');
+    background: url('https://i.imgur.com/arGL9vD.jpg');
+    background-color: black;
+    background-size: 234%;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.568);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
+    transition: all .1s ease-in-out;
+}
+.card-container2 {
+    width: 13rem;
+    height: 15rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('https://i.imgur.com/bqjJVH2.jpg');
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.568);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
+    transition: all .1s ease-in-out;
+}
+.card-container3 {
+    width: 13rem;
+    height: 15rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('https://i.imgur.com/yErkMDA.jpg');
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.568);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
+    transition: all .1s ease-in-out;
+}
+.card-container4 {
+    width: 13rem;
+    height: 15rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('https://i.imgur.com/MK91pmo.jpg');
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.568);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
+    transition: all .1s ease-in-out;
+}
+.card-container5 {
+    width: 13rem;
+    height: 15rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('https://i.imgur.com/7mqZ5nF.jpg');
     background-color: black;
     background-size: cover;
     cursor: pointer;
