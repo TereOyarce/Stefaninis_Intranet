@@ -4,7 +4,6 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
-    padding-left: 4rem;
     }
 
 .header-vacancies {
@@ -19,6 +18,8 @@
 .header-vacancies h1{
     font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
+    padding-top: 2rem;
+    margin-top: 3rem;
 }
 
 .header-vacancies p{
