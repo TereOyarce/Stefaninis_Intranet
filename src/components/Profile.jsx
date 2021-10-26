@@ -9,7 +9,7 @@ import { doc, setDoc, addDoc, collection } from "firebase/firestore";
 
 export const Profile = () => {
 
-  const [name, setName] = useState('');
+  const [name, setName] = useState('tere');
   const [rut, setRut] = useState('');
   const [gender, setGender] = useState('');
   const [birthday, setBirthday] = useState('');
@@ -46,7 +46,7 @@ export const Profile = () => {
 
 
       .then(() => {
-        console.log("Guardado correctamente");
+        alert("Guardado correctamente");
       })
       .catch((error) => {
         console.log(error.message);
