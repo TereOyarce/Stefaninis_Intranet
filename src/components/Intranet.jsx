@@ -13,7 +13,6 @@ import Starting from "./Starting";
 import { Auth } from "./Auth";
 
 
-
 export const Intranet= () =>{
   return(
     <div className="container-intranet">

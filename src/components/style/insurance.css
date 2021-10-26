@@ -4,28 +4,145 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
-    padding-left: 4rem;
 }
 
 .header-insurance {
     height: 15rem;
     width: 100vw;
-    background-color: #16857c88;
+    background: linear-gradient(180deg, #16857B 0%, rgba(22, 133, 123, 0.95) 48.75%, rgba(22, 133, 123, 0.75) 70.62%, rgba(98, 161, 155, 0.140553) 87.29%, rgba(196, 196, 196, 0) 100%);
     text-align: center;
+    padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
 }
 
 .header-insurance h1 {
-    color: white;
-    margin-top: 6rem;
+    font-family: 'Infra', sans-serif;
+    color: var(--primarywhite);
+    padding-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.header-insurance li {
+    display: inline;
+    margin-inline: 20px;
+    list-style: none;
+    cursor: pointer;
+    color: var(--primarywhite);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.header-insurance li:hover{
+    color: var(--primaryblue);
 }
 
 .body-insurance {
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 3rem;
-    background-color: violet;
+    grid-area: 2 / 3 / 5 / 5;
+}
+
+.general-insurance, .manual-insurance, .refund-insurance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-insurance h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primaryblue);
+    padding-bottom: 20px;
+}
+
+.img-insurance {
+    border-radius: 10px;
+    margin: 10px;
+    width: 25%;
+}
+
+.general-insurance h4, h5 {
+    font-size: 18px;
+    color: var(--primaryblue);
+    padding: 20px;
+    font-family: 'Infra', sans-serif;
+}
+
+.general-insurance li {
+    font-size: 14px;
+    color: var(--primaryblue);
+    padding:0.5rem;
+    font-family: 'Infra', sans-serif;
+}
+
+.p-insurance {
+    width: 70%;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.p-insurance p{
+    text-align: justify;
+    font-size: 20px;
+    color: var(--primaryblue);
+    font-family: 'Infra', sans-serif;
+    padding: 2%;
+}
+
+.logo-vc {
+    width: 20%;
+}
+
+.manual-insurance h4 {
+    font-size: 18px;
+    color: var(--primaryblue);
+    padding: 20px;
+    font-family: 'Infra', sans-serif;
+}
+
+.manual-insurance a {
+    text-align: center;
+    padding: 2%;
+}
+
+.refund-insurance h4 {
+    font-size: 18px;
+    color: var(--primaryblue);
+    padding: 0.8rem;
+    font-family: 'Infra', sans-serif;
+}
+
+.btn-insurance {
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    border-color: var(--primaryblue);
+    background: none;
+    font-family: 'Infra', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin:1rem;
+}
+
+.btn-insurance:hover {
+    background-color: var(--primaryblue);
+    color: white;
+}
+
+.box-insurance {
+    display: flex;
+    justify-content: space-around;
+    margin:2rem;
+}
+
+.info-container{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 2rem;
 }
