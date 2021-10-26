@@ -4,7 +4,6 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
-    padding-left: 4rem;
     }
 
 .header-vacancies {
@@ -19,6 +18,8 @@
 .header-vacancies h1{
     font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
+    padding-top: 2rem;
+    margin-top: 3rem;
 }
 
 .header-vacancies p{
@@ -115,3 +116,28 @@
 }
 
 
+@media only screen and (max-width:768px){
+
+    .container-vacancies{
+        padding-left: 6rem;
+    }
+     
+    .header-vacancies p{
+        padding-left: 1rem;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container{
+        height: 8rem;
+        width: 30rem;
+        border: 2px solid rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+  
+}
