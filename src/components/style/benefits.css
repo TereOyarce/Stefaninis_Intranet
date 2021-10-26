@@ -4,7 +4,7 @@
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
-    padding-left: 4rem;
+   
 }
 
 .header-benefits{
@@ -13,13 +13,16 @@
     text-align: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .header-benefits h1{
 
     font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
+    padding-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -31,6 +34,7 @@
     color: var(--primarywhite);
     font-size: large;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 .header-benefits li:hover{

@@ -1,6 +1,7 @@
+import '../../node_modules/react-modal-video/scss/modal-video.scss';
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import "react-modal-video/scss/modal-video.scss";
+
 
 const Video = ({ ytId }) => {
   const [isOpen, setOpen] = useState(false);

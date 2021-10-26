@@ -17,6 +17,7 @@
 }
 
 .header-insurance h1 {
+<<<<<<< HEAD
     font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
 }
@@ -33,6 +34,10 @@
 
 .header-insurance li:hover{
     color: var(--primaryblue);
+=======
+    color: white;
+    margin-top: 6rem;
+>>>>>>> 1d11d6e923f05431d60d519fae430223caf9cb81
 }
 
 .body-insurance {

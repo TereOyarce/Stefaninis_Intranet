@@ -56,7 +56,10 @@ export const Profile = () => {
   return (
     <div className="container-profile">
 
-      <h1>Mi Perfil</h1>
+<div className='header-profile'><h1>Mi Perfil</h1></div>
+
+<div className='body-profile'>
+      
       <img src={profileDefault} alt="profile image" className='profile-img' />
 
       <form onSubmit={handleSubmit}>
@@ -84,7 +87,7 @@ export const Profile = () => {
         </select>
         <button type="submit" className='profile-button'>GUARDAR</button>
       </form>
-
+      </div>
     </div>
   )
 }

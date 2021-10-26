@@ -1,28 +1,25 @@
-@import url('http://fonts.cdnfonts.com/css/infra');
-@import url('http://fonts.cdnfonts.com/css/nexa-bold');
-
 .container-vacancies {
     display: flex;
     flex-direction: column;
     position: inherit;
     justify-content: center;
     grid-area: 1 / 2 / 5 / 6;
-    padding-left: 4rem;
     }
 
 .header-vacancies {
     height: 15rem;
     background: linear-gradient(180deg, #16857B 0%, rgba(22, 133, 123, 0.95) 48.75%, rgba(22, 133, 123, 0.75) 70.62%, rgba(98, 161, 155, 0.140553) 87.29%, rgba(196, 196, 196, 0) 100%);
     text-align: center;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     padding-right: 2rem;
     padding-top: 2rem;
 } 
 
 .header-vacancies h1{
     font-family: 'Infra', sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
+    color: var(--primarywhite);
+    padding-top: 2rem;
+    margin-top: 3rem;
 }
 
 .header-vacancies p{
@@ -30,90 +27,80 @@
     color: var(--primarywhite);
 }
 
-.body-vacancies {
-    display: flex;
-    flex-direction: row;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    
-}
-
-.left-container {
-    width: 50%;
-    text-align: center;
-    
-}
-
-.left-container h4{
-    font-size: 25px;
-    font-family: 'Infra', sans-serif;
-}
-
-.left-container p{
-    font-size: 12px;
-    font-family: 'Infra', sans-serif;
-}
-
 .redirec-btn{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    height: 5rem;
-    width: 30rem;
-    font-family: 'Infra', sans-serif;
-    font-size: 25px;
-    background-color: #009ed760;
-    border: 3px solid rgba(0, 0, 0, 0.589);
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.445);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    height: 3rem;
+    font-size: 20px;
+    background: none;
     cursor: pointer;
+    color: var(--primaryblue);
+    font-size: large;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .redirec-btn:hover{
-    background-color: #0b16417a;
-    opacity: 1;
+    color: var(--secondarygrey);
+}
+
+
+.body-vacancies {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.top-container {
+    text-align: center;
+}
+
+
+.top-container h4, p{
+    font-family: 'Infra', sans-serif;
 }
 
 .cv-btn{
-    margin-top: 2rem;
-    height: 3rem;
-    width: 15rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 10rem;
     font-family: 'Infra', sans-serif;
     font-size: 15px;
-    background-color: #d7560060;
-    border: 3px solid rgba(0, 0, 0, 0.589);
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.445);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: var(--primarygreen);
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.274);
     cursor: pointer;
 }
 
 .cv-btn:hover{
-    background-color: #631a047a;
+    background-color: var(--primaryblue);
     opacity: 1;
-}
-
-
-.right-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: 1rem;
 }
 
 .title-container{
     padding: 5px;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .title-container h2{
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Infra', sans-serif;
 }
 
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
 .info-container{
+    height: 15rem;
+    width: 13rem;
     border: 2px solid rgba(0, 0, 0, 0.6);
-    margin-bottom: 1rem;
-    padding: 0.3rem;
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -123,7 +110,34 @@
 }
 
 .info-container p{
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Infra', sans-serif;
+    padding-top: 1rem;
 }
 
+
+@media only screen and (max-width:768px){
+
+    .container-vacancies{
+        padding-left: 6rem;
+    }
+     
+    .header-vacancies p{
+        padding-left: 1rem;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container{
+        height: 8rem;
+        width: 30rem;
+        border: 2px solid rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+  
+}

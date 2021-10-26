@@ -18,11 +18,22 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
+    
 }
 
 .header-link h1 {
+<<<<<<< HEAD
     font-family: 'Infra', sans-serif;
     color: var(--primarywhite);
+=======
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    padding-top: 2rem;
+    margin-top: 5rem;
+>>>>>>> 1d11d6e923f05431d60d519fae430223caf9cb81
 }
 
 .body-links {
@@ -71,6 +82,7 @@ a {
     line-height: 40px;
     padding-top: 8px;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .overlay {
