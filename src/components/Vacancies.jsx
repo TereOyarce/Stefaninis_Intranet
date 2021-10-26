@@ -8,28 +8,27 @@ export const Vacancies= () =>{
 
         <div className='header-vacancies'>
             <h1>Vacantes</h1>
-            <p>Creemos en que la innovación tecnológica puede desarrollarse con mentes dispuestas a romper con lo normal. Ser disruptivos es atreverse al cambio, co-crear y potenciar las habilidades de cada uno en conjunto, para entre todos, transformar el mundo desde adentro {'\n'}
-             ¿Te atreves a despegar?</p>
+            <p>¡Mantente al corriente de los cargos disponibles en Stefanini Chile y LATAM!   </p>
+            <button className='redirec-btn' onClick= {()=> (window.open('https://jobs.kenoby.com/stefaninilatam?utm_source=website'))}> ¡Revisa Aquí! </button>
+            
         </div>
         
         <div className='body-vacancies'>
 
-          <div className='left-container'>
-            <h4>STEFANINI LATAM</h4>
-            <h5>INNOVANDO, TECNOLOGÍA Y TALENTO</h5>
-            <button className='redirec-btn' onClick= {()=> (window.open('https://jobs.kenoby.com/stefaninilatam?utm_source=website'))}> REVISAR VACANTES </button>
-            
-            <h5>¿NO ENCONTRASTE NINGUNA OPORTUNIDAD COMPATIBLE?</h5>
+          <div className='top-container'>
+            <h4>¿NO ENCONTRASTE NINGUNA OPORTUNIDAD COMPATIBLE?</h4>
             <p>¡Envianos tu CV y forma parte de nuestro Base de Candidatos para futuras oportunidades!</p>
             <button className='cv-btn' onClick= {()=> (window.open('https://portal.kenoby.com/stefaninilatam/login?redirect=%2Fstefaninilatam%2Fcadastrar&1=1&utm_source=website&action=email'))}> ENVIAR AHORA</button>
           </div>
 
-          <div className='right-container'>
-            <div className='title-container'>
-                <h2>En Stefanini Latam puedes tener muchos beneficios, como:</h2>
-            </div>
+          <div className='title-container'>
+                <h2>En Stefanini puedes tener muchos beneficios, como</h2>
+          </div>
+
+          <div className='bottom-container'>
+        
             <div className='info-container'>
-                <h4>Aprendizaje – autoconocimiento</h4>
+                <h4>Aprendizaje</h4>
                 <p>Contamos con convenios en centros de formación de primera linea para que puedas contar con un entrenamiento constante.</p>
             </div>
             <div className='info-container'>
@@ -38,7 +37,7 @@ export const Vacancies= () =>{
             </div>
             <div className='info-container'>
                 <h4>Generas ideas</h4>
-                <p>En Stefanini Argentina estamos atentos a las ideas que generas, estas son tenidas en cuenta para el desarrollo de tu gestión y profesión.</p>
+                <p>Estamos atentos a las ideas que generas, estas son tenidas en cuenta para el desarrollo de tu gestión y profesión.</p>
             </div>
             <div className='info-container'>
                 <h4>Equipo global</h4>
@@ -49,8 +48,8 @@ export const Vacancies= () =>{
                 <p>Contamos con beneficios pensados para cuidar tu salud, con convenios para que realices actividades deportivas y una cobertura de salud pensada para tu bienestar.</p>
             </div>
           </div>
+
         </div>
-      
      
     </div>
   )
