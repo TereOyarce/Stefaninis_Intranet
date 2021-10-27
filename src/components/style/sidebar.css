@@ -51,12 +51,30 @@
     margin-left: 1rem;
 }
 
-@media only screen and (max-width:768px){
-
-
-.container-logo{
-    background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);
+.log-icon2 {
+    display: none;
 }
+
+@media only screen and (max-width:768px){
+    .container-sidebar {
+        width: 3rem;
+    }
+    .container-logo{
+        background: linear-gradient(180deg, #0B1641 15.62%, #16857B 100%);  
+    }
+
+    .category-2, .link-log{
+        font-size: 0;
+    }
+
+    .log-icon2 {
+        display: block;
+    }
+
+    .img-container {
+        width: 20%;
+        padding-left: 0.5rem;
+    }
 
 
 }

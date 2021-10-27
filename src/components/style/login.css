@@ -127,6 +127,34 @@ form {
  .miniLogo{
    width: 100px;
  }
+
+ @media only screen and (max-width:768px){
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    background: none;
+  }
+
+  .logo-login {
+    width: 140px;
+    height: 35px;
+  }
+
+  .glass-container {
+    width: 40%;
+    margin-bottom: 2rem;
+  }
+
+  .form-title h1 {
+    font-size: 1rem;
+  }
+
+
+}
   
   
 
