@@ -93,15 +93,19 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    margin-left: 1rem;
+    margin-left: 3.5rem;
 }
 
 .info-container{
-    height: 15rem;
-    width: 13rem;
-    border: 2px solid rgba(0, 0, 0, 0.6);
+    height: 13rem;
+    width: 15rem;
+    border: 1px solid rgba(0, 0, 0, 0.473);
     padding-top: 2rem;
     text-align: center;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.185);
 }
 
 .info-container h4{

@@ -1,6 +1,7 @@
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import { Icon } from '@iconify/react';
 
 
 const Video = ({ ytId }) => {
@@ -17,7 +18,7 @@ const Video = ({ ytId }) => {
       />
 
       <button className="btn-insurance" onClick={() => setOpen(true)}>
-      ▶Mira este video
+      <Icon icon="logos:youtube-icon" height={20} />Mira este video
       </button>
     </React.Fragment>
   );
