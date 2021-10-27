@@ -8,7 +8,8 @@ export const Links= () =>{
     <div className='container-links'>
       
       <div className='header-link'> 
-        <h1>Recursos</h1>
+          <h1>Recursos</h1>
+          <p>¡Encuentra aquí accesos directos a las páginas que necesitas!</p>
       </div>
 
       <div className='body-links'>
