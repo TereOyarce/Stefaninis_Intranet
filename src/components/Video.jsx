@@ -18,7 +18,7 @@ const Video = ({ ytId }) => {
       />
 
       <button className="btn-insurance" onClick={() => setOpen(true)}>
-      <Icon icon="logos:youtube-icon" height={20} />Mira este video
+      <Icon icon="logos:youtube-icon" height={15} />Mira este video
       </button>
     </React.Fragment>
   );
