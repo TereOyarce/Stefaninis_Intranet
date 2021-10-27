@@ -2,73 +2,46 @@
 
 Dentro del contexto del primer Talent Fest de Laboratoria Chile, la empresa transnacional Stefanini Group, nos convocó a presentar una solución que aune los requisitos para formar parte de su camino a una transformación digital a nivel corporativo. Para ello nos presentó el reto de crear un Intranet para colaboradores o Stefaniners, donde esta última tiene que ser 360° (interna y externa) para que ellos puedan ir digitalizando y agilizando sus procesos internos.
 
+## Organización y diseño
+
+En primera instancia, basándonos en los requisitos entregados por Stefanini Group, se comenzó con una lluvia de ideas sobre la distribución de elementos y su visualización en pantalla, tomando como referencia el branding de Stefanini; una paleta de colores característica, tipografía, iconografía, imágenes referenciales y pequeños detalles como forma de botones. 
+
+Decidimos un diseño sencillo e intuitivo con dos pantallas principales, Login e Intranet y, esta última, distribuida en tres secciones: Sidebar (barra lateral), navbar (barra de navegación) y cuerpo (body). 
+
+### Sidebar
+- Perfil: El usuario ingresado podrá ver su información y editarla. 
+- Calendario: Despliega un calendario editable para que, si se desea, destacar eventos en fechas específicas.
+
+### Navbar
+- RRHH: Botón que conecta directamente con el ingreso a  Portal de Auto Consultas Recursos Humanos.
+- Recursos: Despliega 5 tarjetas con el título e información de los portales más usados por Stefaniners. Al hacer click en alguna de ellas,      redirecciona a la página correspondiente.
+- Beneficios: Muestra todos los beneficios, convenios y descuentos disponibles para los colaboradores.
+- Seguro: Información sobre el seguro complementario, Manual de usuario y reembolso web. 
+- Vacantes: Introduce y conecta al colaborador con Kenoby, página para buscar empleo en Stefanini Latam. 
+- Barra buscadora: Conecta con las diferentes rutas y temáticas disponibles en la intranet. 
 
 
- [Create React App](https://github.com/facebook/create-react-app).
+![Captura de pantalla del diseño](src/assets/img/figma.jpg)
 
-## Available Scripts
+ * [Enlace a Figma para más detalles](https://www.figma.com/file/NIgkrMIJ0J0QV2M4JhQ8Wm/Stefanini?node-id=0%3A1)
 
-In the project directory, you can run:
 
-### `npm start`
+## Frameworks y librerías ocupadas durante la creación del proyecto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React Js](https://es.reactjs.org/): $ create-react-app
+- [React Router](https://reactrouter.com/web/guides/quick-start): $ npm install react-router-dom
+- [Iconify React](https://www.npmjs.com/package/@iconify/react): $ npm i @iconify/react
+- [Carrusel React](https://www.npmjs.com/package/:react-responsive-carousel): $ npm i react-responsive-carousel
+- [Full Calendar](https://fullcalendar.io/docs/react): $ npm install --save @fullcalendar/react @fullcalendar/daygrid
+- [Firebase](https://firebase.google.com/?hl=es): $ firebase install
+- [Node gyp](https://github.com/nodejs/node-gyp): node-gyp
+- [Saas](https://www.npmjs.com/package/sass): npm sass
+- [React modal video](https://www.npmjs.com/package/react-modal-video): $ npm install react-modal-video
+- [Hosting con Github Pages](https://tereoyarce.github.io/Stefaninis_Intranet/auth)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
