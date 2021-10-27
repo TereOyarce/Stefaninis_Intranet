@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48cc15344f259e046512a268a381a2de",
+    "revision": "7ceb483ea801990c92e9ab22de4f7162",
     "url": "/Stefaninis_Intranet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Stefaninis_Intranet/static/css/2.fa5d8a67.chunk.css"
   },
   {
-    "revision": "0187f5d6c1df8046c692",
+    "revision": "3fd35c6c9e996df8ad3c",
     "url": "/Stefaninis_Intranet/static/css/main.ca7b0a51.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0187f5d6c1df8046c692",
-    "url": "/Stefaninis_Intranet/static/js/main.d87e5032.chunk.js"
+    "revision": "3fd35c6c9e996df8ad3c",
+    "url": "/Stefaninis_Intranet/static/js/main.9ada0143.chunk.js"
   },
   {
     "revision": "747c3afc268839e45b25",

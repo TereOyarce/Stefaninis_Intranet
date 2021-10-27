@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Stefaninis_Intranet/static/css/main.ca7b0a51.chunk.css",
-    "main.js": "/Stefaninis_Intranet/static/js/main.d87e5032.chunk.js",
-    "main.js.map": "/Stefaninis_Intranet/static/js/main.d87e5032.chunk.js.map",
+    "main.js": "/Stefaninis_Intranet/static/js/main.9ada0143.chunk.js",
+    "main.js.map": "/Stefaninis_Intranet/static/js/main.9ada0143.chunk.js.map",
     "runtime-main.js": "/Stefaninis_Intranet/static/js/runtime-main.df430442.js",
     "runtime-main.js.map": "/Stefaninis_Intranet/static/js/runtime-main.df430442.js.map",
     "static/css/2.fa5d8a67.chunk.css": "/Stefaninis_Intranet/static/css/2.fa5d8a67.chunk.css",
     "static/js/2.068303be.chunk.js": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js",
     "static/js/2.068303be.chunk.js.map": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js.map",
     "index.html": "/Stefaninis_Intranet/index.html",
-    "precache-manifest.ddf1c0c51a3204f3cf9122564d3a4163.js": "/Stefaninis_Intranet/precache-manifest.ddf1c0c51a3204f3cf9122564d3a4163.js",
+    "precache-manifest.90e1011ab01596f39ca8be1308d2aad8.js": "/Stefaninis_Intranet/precache-manifest.90e1011ab01596f39ca8be1308d2aad8.js",
     "service-worker.js": "/Stefaninis_Intranet/service-worker.js",
     "static/css/2.fa5d8a67.chunk.css.map": "/Stefaninis_Intranet/static/css/2.fa5d8a67.chunk.css.map",
     "static/css/main.ca7b0a51.chunk.css.map": "/Stefaninis_Intranet/static/css/main.ca7b0a51.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.fa5d8a67.chunk.css",
     "static/js/2.068303be.chunk.js",
     "static/css/main.ca7b0a51.chunk.css",
-    "static/js/main.d87e5032.chunk.js"
+    "static/js/main.9ada0143.chunk.js"
   ]
 }
