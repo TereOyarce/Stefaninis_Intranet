@@ -1,40 +1,50 @@
-.Starting{
+.Starting {
   font-family: sans-serif;
   text-align: center;
   grid-area: 2 / 2 / 6 / 6;
 }
+
 .carousel-container {
   display: flex;
   flex-direction: column;
   grid-area: 1/ 2 / 6 / 6;
-  }
-  .header-carousel {
-    height: 15rem;
-    background-color: #16857c;
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-   
-  }
-  .header-carousel h1 {
-    text-align: center;
-    color: white;
-    margin-top: 5rem;
-  }
-  .header-carousel p{
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-left: 6rem;
-    margin-right: 5rem;
-    color: white;
-    font-style: italic;
-    
-  }
- 
- .body-carousel{
-  
+}
+
+.header-carousel {
+  height: 15rem;
+  background-color: #16857c;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+
+}
+
+.header-carousel h1 {
+  text-align: center;
+  color: white;
+  margin-top: 5rem;
+}
+
+.header-carousel p {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-left: 6rem;
+  margin-right: 5rem;
+  color: white;
+  font-style: italic;
+
+}
+
+.body-carousel {
+
   display: flex;
   align-self: center;
   margin-top: 2rem;
- }
+}
+
+.updateOnItemClick {
+  width: "90%";
+  justify-content: "space-between";
+}
+

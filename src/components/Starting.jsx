@@ -18,11 +18,10 @@ function Starting() {
       <div className='body-carousel'>
 
         <Carousel
-          updateOnItemClick
+          updateOnItemClick className=' updateOnItemClick'
           containerProps={{
             style: {
-              width: "100%",
-              justifyContent: "space-between"
+              
             }
           }}
           activeSlideIndex={activeSlide}
