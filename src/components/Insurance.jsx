@@ -101,7 +101,7 @@ export const Insurance= () =>{
         </div>
 
         <div className="box-insurance">
-          <div className="info-container">
+          <div className="info-container2">
             <h4>Documentación requerida:</h4>
             <button 
             className="btn-insurance"
@@ -109,7 +109,7 @@ export const Insurance= () =>{
             ><Icon icon="vscode-icons:file-type-pdf" height={30} />Lee más</button>
           </div>  
 
-          <div className="info-container">
+          <div className="info-container2">
             <h4>Pasos a paso para tu reembolso:</h4>
             <button 
             className="btn-insurance"
@@ -117,7 +117,7 @@ export const Insurance= () =>{
             ><Icon icon="vscode-icons:file-type-pdf" height={30}/>Lee más</button>
           </div>
 
-          <div className="info-container">
+          <div className="info-container2">
           <h4>Aprende a usar la app de reembolso</h4>
           < Video ytId="fQ3VMNCk9Lw"/>
           </div>

@@ -116,7 +116,8 @@
 .info-container p{
     font-size: 14px;
     font-family: 'Infra', sans-serif;
-    padding-top: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 
