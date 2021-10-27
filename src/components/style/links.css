@@ -54,36 +54,42 @@ a {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.486);
     transition: all .1s ease-in-out;
     border-radius: 20px 20px 0px 0px;
+    opacity: .82;
 }
 
  .card-container:first-child{
     background-image: url('https://i.imgur.com/wC6nUMO.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
+    opacity: .82;
 }
 
 .card-container:nth-child(2){
     background: url('https://i.imgur.com/CqXUtYS.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
+    opacity: .82;
 }
 
 .card-container:nth-child(3){
     background: url('https://i.imgur.com/91wCpUY.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
+    opacity: .82;
 }
 
 .card-container:nth-child(4){
     background: url('https://i.imgur.com/atPxxkV.png');
     background-color: rgba(0, 0, 0, 0.5);
-    background-size: 100%;
+    background-size: cover;
+    opacity: .82;
 }
 
 .card-container:last-child{
     background: url('https://i.imgur.com/YVnnvJB.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-size: 100%;
+    opacity: .82;
 } 
 
 .title-box {
@@ -98,7 +104,7 @@ a {
 }
 
 .title-box h2 {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 40px;
     padding-top: 8px;
     letter-spacing: 3px;
@@ -106,15 +112,18 @@ a {
 }
 
 .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: 100%;
     text-align: center;
-    background: rgba(92, 92, 92, 0.726);
-    color: #FEF5DF;
+    background: var(--primaryblue);
+    color: var(--primarywhite);
     opacity: 0;
     transition: all 0.5s;
     border-radius: 20px 20px 0px 0px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Nexa', sans-serif;
 }
 
 .overlay h1 {
