@@ -58,7 +58,7 @@ export const Insurance= () =>{
         <button 
         className="btn-insurance"
         onClick={()=>window.open(Pdf)}
-        >Lee más <Icon icon="vscode-icons:file-type-pdf" height={50} /></button>
+        ><Icon icon="vscode-icons:file-type-pdf" height={30} />Lee más</button>
         <h4>Si aún tienes dudas sobre cómo leer tu seguro de salud</h4>
         <Video ytId="m5NV2tYLEpo"/>
     </div>
@@ -84,7 +84,7 @@ export const Insurance= () =>{
         <button 
         className="btn-insurance"
         onClick={()=>window.open(Pdf2)}
-        >Lee más <Icon icon="vscode-icons:file-type-pdf" height={40} /></button>
+        ><Icon icon="vscode-icons:file-type-pdf" height={30} />Lee más</button>
         <a href="https://www.vidacamara.cl/" target="_blank">
         <img src={logovc} alt="Logo-VC" className="logo-vc"/></a>
     </div>
@@ -101,23 +101,23 @@ export const Insurance= () =>{
         </div>
 
         <div className="box-insurance">
-          <div className="info-container">
+          <div className="info-container2">
             <h4>Documentación requerida:</h4>
             <button 
             className="btn-insurance"
             onClick={()=>window.open(Pdf3)}
-            >Lee más <Icon icon="vscode-icons:file-type-pdf" height={40} /></button>
+            ><Icon icon="vscode-icons:file-type-pdf" height={30} />Lee más</button>
           </div>  
 
-          <div className="info-container">
+          <div className="info-container2">
             <h4>Pasos a paso para tu reembolso:</h4>
             <button 
             className="btn-insurance"
             onClick={()=>window.open(Pdf4)}
-            >Lee más <Icon icon="vscode-icons:file-type-pdf" height={40}/></button>
+            ><Icon icon="vscode-icons:file-type-pdf" height={30}/>Lee más</button>
           </div>
 
-          <div className="info-container">
+          <div className="info-container2">
           <h4>Aprende a usar la app de reembolso</h4>
           < Video ytId="fQ3VMNCk9Lw"/>
           </div>

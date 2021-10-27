@@ -134,6 +134,7 @@
     font-weight: bold;
     font-size: 16px;
     margin:1rem;
+    margin-left: 2.5rem;
 }
 
 .btn-insurance:hover {
@@ -147,8 +148,43 @@
     margin:2rem;
 }
 
-.info-container{
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    text-align: center;
+.info-container2 {
+    height: 13rem;
+    width: 15rem;
     margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    padding-top: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.185);
 }
+
+@media only screen and (max-width:768px){
+    .body-insurance {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-insurance li {
+        display: flex;
+        justify-content: center;
+        color: var(--primaryblue);
+        font-size: 16px;
+    }
+
+    .header-insurance li:hover {
+        color: gray;
+    }
+
+    .box-insurance {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general-insurance h4 {
+        font-size: 11px;
+    }
+}
+

@@ -28,14 +28,18 @@ export const Sidebar= () =>{
      
       <Link to='/profile'>
       <div className='links-sidebar'>
-          <button className="category-2">PERFIL</button>
+          <button className="category-2">PERFIL
+          <Icon icon="ant-design:user-outlined"  height="15" rotate={2} hFlip={true} vFlip={true} className="log-icon2"/>
+          </button>
           </div>
       </Link>
      
      
       <Link to='calendar'>
       <div className='links-sidebar'>
-          <button className="category-2">CALENDARIO</button>
+          <button className="category-2">CALENDARIO
+          <Icon icon="bi:calendar-date" height="15" rotate={2} hFlip={true} vFlip={true} className="log-icon2"/>
+          </button>
           </div>
       </Link>
      

@@ -57,12 +57,13 @@
 
 .top-container h4, p{
     font-family: 'Infra', sans-serif;
+    padding: 0.5rem;
 }
 
 .cv-btn{
-    margin-top: 0.5rem;
-    height: 2rem;
-    width: 10rem;
+    margin-top: 1.5rem;
+    width: 160px;
+    height: 50px;
     font-family: 'Infra', sans-serif;
     font-size: 15px;
     background-color: var(--primarygreen);
@@ -71,6 +72,7 @@
     -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.445);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.274);
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .cv-btn:hover{
@@ -87,6 +89,7 @@
 .title-container h2{
     font-size: 17px;
     font-family: 'Infra', sans-serif;
+    padding: 1rem;
 }
 
 .bottom-container {
@@ -116,14 +119,15 @@
 .info-container p{
     font-size: 14px;
     font-family: 'Infra', sans-serif;
-    padding-top: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 
 @media only screen and (max-width:768px){
 
     .container-vacancies{
-        padding-left: 6rem;
+        padding-left: 1rem;
     }
      
     .header-vacancies p{
@@ -138,10 +142,11 @@
     }
 
     .info-container{
-        height: 8rem;
-        width: 30rem;
+        height: 11rem;
+        width: 15rem;
         border: 2px solid rgba(0, 0, 0, 0.6);
         text-align: center;
+        margin:1rem;
     }
   
 }
