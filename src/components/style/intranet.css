@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/infra');
-@import url('http://fonts.cdnfonts.com/css/nexa-bold');
+@import url('https://fonts.cdnfonts.com/css/infra');
+@import url('https://fonts.cdnfonts.com/css/nexa-bold');
 
 :root {
   margin: 0;
@@ -13,6 +13,12 @@
   --secondarylightblue: #009FD7;
   font-family: 'Infra', sans-serif;
   font-family: 'Nexa', sans-serif;
+  
+}
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
 
 .container-intranet {
@@ -21,4 +27,5 @@
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+ 
 }

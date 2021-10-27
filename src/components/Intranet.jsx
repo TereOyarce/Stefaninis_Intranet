@@ -26,8 +26,8 @@ export const Intranet= () =>{
             <Route path='/links' component={Links}/>
             <Route path='/benefits' component={Benefits}/>
             <Route path='/insurance' component={Insurance}/>
-            <Route path='/' component={Starting}/>
             <Route path='/auth' component={Auth}/>
+            <Route path='/' component={Starting}/>
           </Switch>
         </Router>        
     </div>

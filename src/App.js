@@ -39,7 +39,7 @@ const UnauthenticatedRoute = ({ component: C, ...props }) => {
 function App() {
   return (
     <AuthContextProvider>
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <div className="App">
         <UnauthenticatedRoute exact path="/auth" component={Auth}/>
         <AuthenticatedRoute exact path="/" component={Intranet}/>       
