@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac86aabf6a3258327128a8880197b25e",
+    "revision": "6bd89611fa0492e1bba81bee572705b1",
     "url": "/Stefaninis_Intranet/index.html"
   },
   {
-    "revision": "16cfc9b1b7cd99dab77c",
+    "revision": "0f230ffab586820bd835",
     "url": "/Stefaninis_Intranet/static/css/2.fa5d8a67.chunk.css"
   },
   {
-    "revision": "3fd35c6c9e996df8ad3c",
-    "url": "/Stefaninis_Intranet/static/css/main.ca7b0a51.chunk.css"
+    "revision": "3d0ae76f6088766340fa",
+    "url": "/Stefaninis_Intranet/static/css/main.1208db7e.chunk.css"
   },
   {
-    "revision": "16cfc9b1b7cd99dab77c",
-    "url": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js"
+    "revision": "0f230ffab586820bd835",
+    "url": "/Stefaninis_Intranet/static/js/2.ca21498c.chunk.js"
   },
   {
     "revision": "d8d8d15ddaa0fba847f5f67864e9bb68",
-    "url": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js.LICENSE.txt"
+    "url": "/Stefaninis_Intranet/static/js/2.ca21498c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3fd35c6c9e996df8ad3c",
-    "url": "/Stefaninis_Intranet/static/js/main.9ada0143.chunk.js"
+    "revision": "3d0ae76f6088766340fa",
+    "url": "/Stefaninis_Intranet/static/js/main.882bc60f.chunk.js"
   },
   {
     "revision": "747c3afc268839e45b25",

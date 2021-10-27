@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Stefaninis_Intranet/static/css/main.ca7b0a51.chunk.css",
-    "main.js": "/Stefaninis_Intranet/static/js/main.9ada0143.chunk.js",
-    "main.js.map": "/Stefaninis_Intranet/static/js/main.9ada0143.chunk.js.map",
+    "main.css": "/Stefaninis_Intranet/static/css/main.1208db7e.chunk.css",
+    "main.js": "/Stefaninis_Intranet/static/js/main.882bc60f.chunk.js",
+    "main.js.map": "/Stefaninis_Intranet/static/js/main.882bc60f.chunk.js.map",
     "runtime-main.js": "/Stefaninis_Intranet/static/js/runtime-main.df430442.js",
     "runtime-main.js.map": "/Stefaninis_Intranet/static/js/runtime-main.df430442.js.map",
     "static/css/2.fa5d8a67.chunk.css": "/Stefaninis_Intranet/static/css/2.fa5d8a67.chunk.css",
-    "static/js/2.068303be.chunk.js": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js",
-    "static/js/2.068303be.chunk.js.map": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js.map",
+    "static/js/2.ca21498c.chunk.js": "/Stefaninis_Intranet/static/js/2.ca21498c.chunk.js",
+    "static/js/2.ca21498c.chunk.js.map": "/Stefaninis_Intranet/static/js/2.ca21498c.chunk.js.map",
     "index.html": "/Stefaninis_Intranet/index.html",
-    "precache-manifest.4c5b6516c44e281e48dd1e122389c68b.js": "/Stefaninis_Intranet/precache-manifest.4c5b6516c44e281e48dd1e122389c68b.js",
+    "precache-manifest.66a5d12a4ca4ed5120070f0c6754d601.js": "/Stefaninis_Intranet/precache-manifest.66a5d12a4ca4ed5120070f0c6754d601.js",
     "service-worker.js": "/Stefaninis_Intranet/service-worker.js",
     "static/css/2.fa5d8a67.chunk.css.map": "/Stefaninis_Intranet/static/css/2.fa5d8a67.chunk.css.map",
-    "static/css/main.ca7b0a51.chunk.css.map": "/Stefaninis_Intranet/static/css/main.ca7b0a51.chunk.css.map",
-    "static/js/2.068303be.chunk.js.LICENSE.txt": "/Stefaninis_Intranet/static/js/2.068303be.chunk.js.LICENSE.txt",
+    "static/css/main.1208db7e.chunk.css.map": "/Stefaninis_Intranet/static/css/main.1208db7e.chunk.css.map",
+    "static/js/2.ca21498c.chunk.js.LICENSE.txt": "/Stefaninis_Intranet/static/js/2.ca21498c.chunk.js.LICENSE.txt",
     "static/media/folleto.pdf": "/Stefaninis_Intranet/static/media/folleto.4fb55f6d.pdf",
     "static/media/infografia.pdf": "/Stefaninis_Intranet/static/media/infografia.f1f2a97a.pdf",
     "static/media/insurance.jpg": "/Stefaninis_Intranet/static/media/insurance.4c5effef.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.df430442.js",
     "static/css/2.fa5d8a67.chunk.css",
-    "static/js/2.068303be.chunk.js",
-    "static/css/main.ca7b0a51.chunk.css",
-    "static/js/main.9ada0143.chunk.js"
+    "static/js/2.ca21498c.chunk.js",
+    "static/css/main.1208db7e.chunk.css",
+    "static/js/main.882bc60f.chunk.js"
   ]
 }
