@@ -17,7 +17,7 @@ export const Vacancies= () =>{
 
           <div className='top-container'>
             <h4>¿NO ENCONTRASTE NINGUNA OPORTUNIDAD COMPATIBLE?</h4>
-            <p>¡Envianos tu CV y forma parte de nuestro Base de Candidatos para futuras oportunidades!</p>
+            <p>¡Envíanos tu CV y forma parte de nuestra Base de Candidatos para futuras oportunidades!</p>
             <button className='cv-btn' onClick= {()=> (window.open('https://portal.kenoby.com/stefaninilatam/login?redirect=%2Fstefaninilatam%2Fcadastrar&1=1&utm_source=website&action=email'))}> ENVIAR AHORA</button>
           </div>
 
@@ -29,11 +29,11 @@ export const Vacancies= () =>{
         
             <div className='info-container'>
                 <h4>Aprendizaje</h4>
-                <p>Contamos con convenios en centros de formación de primera linea para que puedas contar con un entrenamiento constante.</p>
+                <p>Contamos con convenios en centros de formación de primera línea para que puedas contar con un entrenamiento constante.</p>
             </div>
             <div className='info-container'>
-                <h4>Asumir grandes desafios</h4>
-                <p>Podras enfrentar desafios de clase mundial, compartiendo experiencias y conocimeitnos con equipos de otros paises.</p>
+                <h4>Asumir grandes desafíos</h4>
+                <p>Podras enfrentar desafíos de clase mundial, compartiendo experiencias y conocimientos con equipos de otros países.</p>
             </div>
             <div className='info-container'>
                 <h4>Generas ideas</h4>
@@ -41,7 +41,7 @@ export const Vacancies= () =>{
             </div>
             <div className='info-container'>
                 <h4>Equipo global</h4>
-                <p>Trabajamos interconectados, contamos con presencia en mas de 40 paises para que compartan sus conocimeintos.</p>
+                <p>Trabajamos interconectados, contamos con presencia en mas de 40 países para que compartan sus conocimientos.</p>
             </div>
             <div className='info-container'>
                 <h4>Nos interesas</h4>
