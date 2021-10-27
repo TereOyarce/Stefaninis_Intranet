@@ -1,4 +1,9 @@
 # Stefanini's Intranet
+
+Dentro del contexto del primer Talent Fest de Laboratoria Chile, la empresa transnacional Stefanini Group, nos convocó a presentar una solución que aune los requisitos para formar parte de su camino a una transformación digital a nivel corporativo. Para ello nos presentó el reto de crear un Intranet para colaboradores o Stefaniners, donde esta última tiene que ser 360° (interna y externa) para que ellos puedan ir digitalizando y agilizando sus procesos internos.
+
+
+
  [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

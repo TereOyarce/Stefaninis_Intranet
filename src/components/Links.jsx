@@ -67,7 +67,7 @@ export const Links= () =>{
       <div className='card-container'>
         <a target='_blank' href='https://web.yammer.com/main/feed'>
         <div className='overlay'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Red social interna que permite la interacción de todos los Stefaniners</p>
         </div>
         <div className='title-box'>
             <h2>YAMMER</h2>
