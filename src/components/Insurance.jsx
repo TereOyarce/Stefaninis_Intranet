@@ -9,6 +9,7 @@ import Pdf from "../assets/pdf/folleto.pdf";
 import Pdf2 from "../assets/pdf/manual.pdf"
 import Pdf3 from "../assets/pdf/reembolso.pdf"
 import Pdf4 from "../assets/pdf/infografia.pdf"
+import { Icon } from '@iconify/react';
 
 
 export const Insurance= () =>{
@@ -57,8 +58,8 @@ export const Insurance= () =>{
         <button 
         className="btn-insurance"
         onClick={()=>window.open(Pdf)}
-        >Lee más</button>
-        <h4>Si aún tienes dudas sobre como leer tu seguro de salud</h4>
+        >Lee más <Icon icon="vscode-icons:file-type-pdf" height={50} /></button>
+        <h4>Si aún tienes dudas sobre cómo leer tu seguro de salud</h4>
         <Video ytId="m5NV2tYLEpo"/>
     </div>
 
@@ -83,7 +84,7 @@ export const Insurance= () =>{
         <button 
         className="btn-insurance"
         onClick={()=>window.open(Pdf2)}
-        >Lee más</button>
+        >Lee más <Icon icon="vscode-icons:file-type-pdf" height={40} /></button>
         <a href="https://www.vidacamara.cl/" target="_blank">
         <img src={logovc} alt="Logo-VC" className="logo-vc"/></a>
     </div>
@@ -105,7 +106,7 @@ export const Insurance= () =>{
             <button 
             className="btn-insurance"
             onClick={()=>window.open(Pdf3)}
-            >Lee más</button>
+            >Lee más <Icon icon="vscode-icons:file-type-pdf" height={40} /></button>
           </div>  
 
           <div className="info-container">
@@ -113,7 +114,7 @@ export const Insurance= () =>{
             <button 
             className="btn-insurance"
             onClick={()=>window.open(Pdf4)}
-            >Lee más</button>
+            >Lee más <Icon icon="vscode-icons:file-type-pdf" height={40}/></button>
           </div>
 
           <div className="info-container">
